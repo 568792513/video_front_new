@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hui.user_service.mapper.RoleMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.hui.user_service.entity.Role">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+    </resultMap>
+
+    <select id="getRolesByUser" resultMap="BaseResultMap" parameterType="com.hui.user_service.entity.User">
+        SELECT
+        role_id id,
+        role_name name
+        FROM
+        (
+          SELECT
+          user_id,
+          role_id,
+          name username
+          FROM
+          t_user_role as tur LEFT JOIN t_user as tu ON tur.user_id = tu.id
+        <where>
+            <if test="id!=null and id!=''">
+                AND user_id = #{id}
+            </if>
+            <if test="name!=null and name!=''">
+                AND name = #{name}
+            </if>
+        </where>
+        )temp
+        LEFT JOIN t_role as tr ON temp.role_id = tr.id
+    </select>
+
+</mapper>
