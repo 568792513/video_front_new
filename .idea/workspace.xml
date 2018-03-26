@@ -2,218 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7489744c-011e-4d4b-b462-8e29737e1345" name="Default" comment="初始化">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/eureka-service/.mvn/wrapper/maven-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/.mvn/wrapper/maven-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/artifacts/vedioapp_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/artifacts/vedioapp_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_alibaba_druid_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_baomidou_mybatis_plus_2_1_gamma.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_baomidou_mybatisplus_spring_boot_starter_1_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_8_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_netflix_servo_servo_core_0_10_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_netflix_servo_servo_internal_0_10_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__io_netty_netty_buffer_4_0_27_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__io_netty_netty_codec_4_0_27_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__io_netty_netty_codec_http_4_0_27_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__io_netty_netty_common_4_0_27_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__io_netty_netty_handler_4_0_27_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__io_netty_netty_transport_4_0_27_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_0_27_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__io_reactivex_rxjava_1_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__ognl_ognl_3_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_27.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_27.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_27.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_27.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_27.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_27.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_55.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_55.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_freemarker_freemarker_2_3_27_incubating.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_5_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_5_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_1_5_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_5_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_5_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_1_3_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_1_3_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_1_4_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_1_4_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_1_4_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_1_3_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_server_1_4_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_1_4_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_1_4_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_1_4_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_4_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_spring_aop_4_3_14_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_spring_beans_4_3_14_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_spring_context_4_3_14_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_14_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_spring_core_4_3_14_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_spring_expression_4_3_14_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_14_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_spring_test_4_3_14_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_spring_tx_4_3_14_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_spring_web_4_3_14_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_14_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_thymeleaf_thymeleaf_2_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_2_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_unbescape_unbescape_1_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/eureka-service/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/eureka-service/.mvn/wrapper/maven-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/eureka-service/mvnw" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/eureka-service/mvnw.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/eureka-service/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/eureka-service/src/main/java/com/hui/eurekaservice/EurekaServiceApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/eureka-service/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/eureka-service/src/test/java/com/hui/eurekaservice/EurekaServiceApplicationTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/src/main/webapp/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/.mvn/wrapper/maven-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/mvnw" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/mvnw.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/MyGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/UserServiceApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/Result.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/cors/CORSConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/cors/MyConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/cors/OriginFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/mybatis/MybatisPlusConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/mybatis/MybatisPlusConfig1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/CustomUserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/WebSecurityConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/utils/DateTimeUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/controller/UserController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/entity/LogicOpEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/entity/Role.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/entity/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/mapper/RoleMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/mapper/UserMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/RoleService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/impl/MyUserDetailService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/impl/RoleServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/impl/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/mapper/RoleMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/mapper/UserMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/test/java/com/hui/vedio/userservice/UserServiceApplicationTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/vedioapp.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_redis_1_3_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_10_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_2_10_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_8_10_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_14_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/redis/RedisConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/AuthenticationAccessDeniedHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/AuthorizationServerConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/ResourceServerConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/UrlAccessDecisionManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/UrlFilterInvocationSecurityMetadataSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/entity/UserRole.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/mapper/UserRoleMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/mapper/UserRoleMapper.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_0_3_RELEASE.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../vedioapp/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/user-service/pom.xml" afterPath="$PROJECT_DIR$/../vedioapp/user-service/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/Result.java" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/Result.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/cors/MyConfiguration.java" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/cors/MyConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/cors/OriginFilter.java" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/cors/OriginFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/mybatis/MybatisPlusConfig1.java" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/mybatis/MybatisPlusConfig1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/CustomUserService.java" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/CustomUserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/WebSecurityConfig.java" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/WebSecurityConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/controller/UserController.java" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/entity/Role.java" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/entity/Role.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/entity/User.java" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/entity/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/RoleService.java" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/RoleService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/UserService.java" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/impl/MyUserDetailService.java" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/impl/MyUserDetailService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/impl/RoleServiceImpl.java" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/impl/RoleServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/impl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/mapper/RoleMapper.xml" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/mapper/RoleMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../vedioapp/out/" />
     <ignored path="$PROJECT_DIR$/../vedioapp/target/" />
@@ -228,73 +53,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/pom.xml">
+      <file leaf-file-name="RoleServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/impl/RoleServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" column="42" lean-forward="false" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/WebSecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/UserServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            <state relative-caret-position="578">
+              <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1151#1152#0" expanded="true" />
+                <element signature="e#1201#1202#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoleMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/mapper/RoleMapper.java">
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-              <folding />
+            <state relative-caret-position="136">
+              <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+              <folding>
+                <element signature="e#939#940#0" expanded="true" />
+                <element signature="e#985#986#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/mapper/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="119">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MybatisPlusConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/mybatis/MybatisPlusConfig.java">
+      <file leaf-file-name="BaseMapper.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/.m2/repository/com/baomidou/mybatis-plus/2.1-gamma/mybatis-plus-2.1-gamma-sources.jar!/com/baomidou/mybatisplus/mapper/BaseMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="83" column="83" lean-forward="true" selection-start-line="83" selection-start-column="83" selection-end-line="83" selection-end-column="83" />
+            <state relative-caret-position="272">
+              <caret line="35" column="17" lean-forward="false" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Result.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/Result.java">
+      <file leaf-file-name="RoleService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/RoleService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="323">
+              <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -303,29 +112,53 @@
       <file leaf-file-name="MybatisPlusConfig1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/mybatis/MybatisPlusConfig1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+            <state relative-caret-position="1802">
+              <caret line="136" column="9" lean-forward="false" selection-start-line="136" selection-start-column="9" selection-end-line="136" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServiceApplicationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/test/java/com/hui/vedio/userservice/UserServiceApplicationTests.java">
+      <file leaf-file-name="UserRole.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/entity/UserRole.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="102">
+              <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Role.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/entity/Role.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/application.yml">
+      <file leaf-file-name="LogicOpEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/entity/LogicOpEntity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoleMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/mapper/RoleMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+              <folding>
+                <marker date="1521957809052" expanded="true" signature="532:1074" ph="SELECT role_... user_id" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -358,15 +191,35 @@
       <list>
         <option value="$PROJECT_DIR$/../vedioapp/pom.xml" />
         <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/user_service/common/config/cors/MyConfiguration.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/cors/MyConfiguration.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/controller/UserController.java" />
         <option value="$PROJECT_DIR$/../vedioapp/eureka-service/src/main/java/com/hui/eurekaservice/EurekaServiceApplication.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/UserServiceApplication.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/user-service/pom.xml" />
         <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/mybatis/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/redis/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/AuthorizationServerConfiguration.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/ResourceServerConfiguration.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/CustomUserService.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/UrlAccessDecisionManager.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/Result.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/AuthenticationAccessDeniedHandler.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/UrlFilterInvocationSecurityMetadataSource.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/cors/MyConfiguration.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/cors/OriginFilter.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/impl/MyUserDetailService.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/entity/UserRole.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/mapper/UserRoleMapper.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/mapper/UserRoleMapper.xml" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/UserService.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/entity/User.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/controller/UserController.java" />
         <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/mybatis/MybatisPlusConfig1.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/mapper/RoleMapper.xml" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/entity/Role.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/impl/UserServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -412,7 +265,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -432,13 +285,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="vedioapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="vedioapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vedioapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vedioapp" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vedioapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vedioapp" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="libraries" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vedioapp" type="b2602c69:ProjectViewProjectNode" />
@@ -495,6 +359,18 @@
               <item name="user_service" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vedioapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vedioapp" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user_service" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="cors" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vedioapp" type="b2602c69:ProjectViewProjectNode" />
@@ -508,12 +384,104 @@
               <item name="config" type="462c0819:PsiDirectoryNode" />
               <item name="mybatis" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="vedioapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vedioapp" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user_service" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vedioapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vedioapp" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user_service" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vedioapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vedioapp" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user_service" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vedioapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vedioapp" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user_service" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vedioapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vedioapp" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user_service" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vedioapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vedioapp" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user_service" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vedioapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vedioapp" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user_service" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vedioapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vedioapp" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vedioapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vedioapp" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -529,13 +497,17 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="SearchEverywhereHistoryKey" value="fac&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.social.FacebookAutoConfiguration" />
+    <property name="SearchEverywhereHistoryKey" value="Res&#9;FILE&#9;file://H:/vedioapp/user-service/src/main/java/com/hui/user_service/common/Result.java&#10;fac&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.social.FacebookAutoConfiguration" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.13479623" />
     <property name="project.structure.side.proportion" value="0.4365942" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vedioapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VBlog-master" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hui.user_service.common.config.security" />
+      <recent name="com.hui.user_service.common.config.redis" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\vedioapp" />
       <recent name="H:\vedioapp\user-service\src\main\resources" />
@@ -667,7 +639,11 @@
       <option name="presentableId" value="Default" />
       <updated>1521807267434</updated>
       <workItem from="1521807271317" duration="12344000" />
-      <workItem from="1521857796329" duration="677000" />
+      <workItem from="1521857796329" duration="11677000" />
+      <workItem from="1521876055036" duration="138000" />
+      <workItem from="1521877054968" duration="17696000" />
+      <workItem from="1521945195173" duration="6873000" />
+      <workItem from="1522042128149" duration="123000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1521858234868</created>
@@ -676,14 +652,22 @@
       <option name="project" value="LOCAL" />
       <updated>1521858234868</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="初始化">
+      <created>1521858512596</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1521858512596</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13021000" />
+    <option name="totallyTimeSpent" value="48851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -694,12 +678,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3944563" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18710022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25373134" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -708,12 +692,12 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30032644" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32752994" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -729,30 +713,58 @@
     <option name="LAST_COMMIT_MESSAGE" value="初始化" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/test/java/com/hui/vedio/userservice/UserServiceApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="204">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/entity/User.java">
+    <entry file="jar://D:/.m2/repository/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/provider/client/JdbcClientDetailsService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="38" column="37" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.m2/repository/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/provider/client/InMemoryClientDetailsService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.m2/repository/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/provider/ClientDetailsService.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-          <folding />
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/WebSecurityConfig.java">
+    <entry file="jar://D:/.m2/repository/org/springframework/data/spring-data-redis/1.8.10.RELEASE/spring-data-redis-1.8.10.RELEASE.jar!/org/springframework/data/redis/connection/jedis/JedisConnectionFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        <state relative-caret-position="102">
+          <caret line="48" column="13" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.m2/repository/org/springframework/data/spring-data-redis/1.8.10.RELEASE/spring-data-redis-1.8.10.RELEASE.jar!/org/springframework/data/redis/connection/RedisConnectionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/MyGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -760,65 +772,16 @@
     <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/UserServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/mapper/RoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/mapper/UserMapper.java">
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/redis/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="340">
+          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/mybatis/MybatisPlusConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" column="25" lean-forward="true" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/test/java/com/hui/vedio/userservice/UserServiceApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/mybatis/MybatisPlusConfig1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="66" lean-forward="true" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/utils/DateTimeUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -826,371 +789,344 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/RoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/MyGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/ResourceServerConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/impl/MyUserDetailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/CustomUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/eureka-service/src/main/java/com/hui/eurekaservice/EurekaServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/.m2/repository/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1.jar!/org/mybatis/spring/annotation/MapperScan.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/mapper/RoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1520050599461" expanded="true" signature="527:1069" ph="SELECT role_... user_id" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/com.hui.vedio:user-service:0.0.1-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.hui.vedio:user-service:0.0.1-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">com.hui.vedio:user-service:0.0.1-SNAPSHOT</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.3.2.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-context:jar:1.3.2.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-context:jar:1.3.2.RELEASE/org.springframework.security:spring-security-crypto:jar:4.2.4.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:1.3.2.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:1.3.2.RELEASE/org.apache.httpcomponents:httpclient:jar:4.5.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:1.3.2.RELEASE/org.apache.httpcomponents:httpclient:jar:4.5.5/org.apache.httpcomponents:httpcore:jar:4.4.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.3.2.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.3.2.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.3.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.55</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.3.2.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.3.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.55/org.bouncycastle:bcprov-jdk15on:jar:1.55</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-actuator:jar:1.5.10.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-actuator:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-actuator:jar:1.5.10.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-freemarker:jar:1.5.10.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-freemarker:jar:1.5.10.RELEASE/org.freemarker:freemarker:jar:2.3.27-incubating</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.boot:spring-boot-starter-freemarker:jar:1.5.10.RELEASE/org.springframework:spring-context-support:jar:4.3.14.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-core:jar:1.4.3.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:1.4.3.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.7.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.7.0/org.codehaus.jettison:jettison:jar:1.3.7</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.7.0/org.codehaus.jettison:jettison:jar:1.3.7/stax:stax-api:jar:1.0.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.7.0/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.7.0/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.7.0/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/commons-jxpath:commons-jxpath:jar:1.3</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.7.0/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/joda-time:joda-time:jar:2.9.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.7.0/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.7.0/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/org.antlr:stringtemplate:jar:3.2.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.7.0/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/antlr:antlr:jar:2.7.7</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.7.0/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.code.gson:gson:jar:2.8.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.7.0/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/org.apache.commons:commons-math:jar:2.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.7.0/javax.ws.rs:jsr311-api:jar:1.1.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.7.0/com.netflix.servo:servo-core:jar:0.10.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.7.0/com.netflix.servo:servo-core:jar:0.10.1/com.netflix.servo:servo-internal:jar:0.10.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.7.0/com.sun.jersey:jersey-core:jar:1.19.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.7.0/com.sun.jersey:jersey-client:jar:1.19.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.7.0/com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.netflix.eureka:eureka-client:jar:1.7.0/com.google.inject:guice:jar:4.1.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.sun.jersey:jersey-servlet:jar:1.19.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.sun.jersey:jersey-server:jar:1.19.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.netflix.eureka:eureka-core:jar:1.7.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.netflix.eureka:eureka-core:jar:1.7.0/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.netflix.eureka:eureka-core:jar:1.7.0/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1/javax.xml.stream:stax-api:jar:1.0-2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.4</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.4/com.google.code.findbugs:jsr305:jar:3.0.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/javax.inject:javax.inject:jar:1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.8.10</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.8.10/com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.8.10</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.8.10/org.codehaus.woodstox:stax2-api:jar:3.1.4</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.8.10/com.fasterxml.woodstox:woodstox-core:jar:5.0.3</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.9/xmlpull:xmlpull:jar:1.1.3.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:1.4.3.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.9/xpp3:xpp3_min:jar:1.1.4c</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:1.4.3.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:1.4.3.RELEASE/commons-configuration:commons-configuration:jar:1.8</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:1.4.3.RELEASE/commons-configuration:commons-configuration:jar:1.8/commons-lang:commons-lang:jar:2.6</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:1.4.3.RELEASE/com.google.guava:guava:jar:18.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.3.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.3.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.4</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.3.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.4/com.netflix.ribbon:ribbon-transport:jar:2.2.4</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.3.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.4/com.netflix.ribbon:ribbon-transport:jar:2.2.4/io.reactivex:rxnetty-contexts:jar:0.4.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.3.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.4/com.netflix.ribbon:ribbon-transport:jar:2.2.4/io.reactivex:rxnetty-servo:jar:0.4.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.3.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.4/com.netflix.hystrix:hystrix-core:jar:1.5.12</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.3.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.4/com.netflix.hystrix:hystrix-core:jar:1.5.12/org.hdrhistogram:HdrHistogram:jar:2.1.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.3.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.4/io.reactivex:rxnetty:jar:0.4.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.3.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.4/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.3.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.4/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.0.27.Final/io.netty:netty-codec:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.3.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.4/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.0.27.Final/io.netty:netty-handler:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.3.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.4/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.3.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.4/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.0.27.Final/io.netty:netty-common:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.3.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.4/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.0.27.Final/io.netty:netty-buffer:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.3.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.4/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.0.27.Final/io.netty:netty-transport:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.3.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.4</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.3.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.4</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.3.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.4/commons-collections:commons-collections:jar:3.2.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.3.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.4/com.netflix.netflix-commons:netflix-commons-util:jar:0.1.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.3.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.4</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.3.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.4/com.netflix.netflix-commons:netflix-statistics:jar:0.1.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:1.4.3.RELEASE/io.reactivex:rxjava:jar:1.2.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka-server:jar:1.4.3.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:1.4.3.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.2.4</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot:jar:1.5.10.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.10.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.10.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.10.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11/ch.qos.logback:logback-core:jar:1.1.11</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.10.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.25</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.10.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.10.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.25</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE/org.yaml:snakeyaml:jar:1.17</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.10.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.10.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.27</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.10.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.27/org.apache.tomcat:tomcat-annotations-api:jar:8.5.27</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.10.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.27</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.10.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.27</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.hibernate:hibernate-validator:jar:5.3.6.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.hibernate:hibernate-validator:jar:5.3.6.Final/javax.validation:validation-api:jar:1.1.0.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.hibernate:hibernate-validator:jar:5.3.6.Final/org.jboss.logging:jboss-logging:jar:3.3.1.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.hibernate:hibernate-validator:jar:5.3.6.Final/com.fasterxml:classmate:jar:1.3.4</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.10</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.10/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.10/com.fasterxml.jackson.core:jackson-core:jar:2.8.10</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework:spring-web:jar:4.3.14.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework:spring-webmvc:jar:4.3.14.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE/org.springframework:spring-webmvc:jar:4.3.14.RELEASE/org.springframework:spring-expression:jar:4.3.14.RELEASE</node>
-            <node x="" y="">mysql:mysql-connector-java:jar:5.1.45</node>
-            <node x="" y="">org.projectlombok:lombok:jar:1.16.20</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-test:jar:1.5.10.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:1.5.10.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1/org.ow2.asm:asm:jar:5.0.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.25</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/junit:junit:jar:4.12</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.assertj:assertj-core:jar:2.6.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.mockito:mockito-core:jar:1.10.19</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.mockito:mockito-core:jar:1.10.19/org.objenesis:objenesis:jar:2.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.skyscreamer:jsonassert:jar:1.4.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.skyscreamer:jsonassert:jar:1.4.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.springframework:spring-core:jar:4.3.14.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.10.RELEASE/org.springframework:spring-test:jar:4.3.14.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:1.5.10.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:1.5.10.RELEASE/org.thymeleaf:thymeleaf-spring4:jar:2.1.6.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:1.5.10.RELEASE/org.thymeleaf:thymeleaf-spring4:jar:2.1.6.RELEASE/org.thymeleaf:thymeleaf:jar:2.1.6.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:1.5.10.RELEASE/org.thymeleaf:thymeleaf-spring4:jar:2.1.6.RELEASE/org.thymeleaf:thymeleaf:jar:2.1.6.RELEASE/ognl:ognl:jar:3.0.8</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:1.5.10.RELEASE/org.thymeleaf:thymeleaf-spring4:jar:2.1.6.RELEASE/org.thymeleaf:thymeleaf:jar:2.1.6.RELEASE/org.javassist:javassist:jar:3.21.0-GA</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:1.5.10.RELEASE/org.thymeleaf:thymeleaf-spring4:jar:2.1.6.RELEASE/org.thymeleaf:thymeleaf:jar:2.1.6.RELEASE/org.unbescape:unbescape:jar:1.1.0.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:1.5.10.RELEASE/nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:jar:1.4.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:1.5.10.RELEASE/nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:jar:1.4.0/org.codehaus.groovy:groovy:jar:2.4.13</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.3.1</node>
-            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.3.1/org.springframework.boot:spring-boot-autoconfigure:jar:1.5.10.RELEASE</node>
-            <node x="" y="">com.baomidou:mybatis-plus:jar:2.1-gamma</node>
-            <node x="" y="">com.baomidou:mybatis-plus:jar:2.1-gamma/org.mybatis:mybatis-spring:jar:1.3.1</node>
-            <node x="" y="">com.baomidou:mybatis-plus:jar:2.1-gamma/org.mybatis:mybatis:jar:3.4.4</node>
-            <node x="" y="">com.baomidou:mybatis-plus:jar:2.1-gamma/com.github.jsqlparser:jsqlparser:jar:1.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-security:jar:1.5.10.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-security:jar:1.5.10.RELEASE/org.springframework:spring-aop:jar:4.3.14.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-security:jar:1.5.10.RELEASE/org.springframework.security:spring-security-config:jar:4.2.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-security:jar:1.5.10.RELEASE/org.springframework.security:spring-security-web:jar:4.2.4.RELEASE</node>
-            <node x="" y="">org.springframework.security.oauth:spring-security-oauth2:jar:2.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.security.oauth:spring-security-oauth2:jar:2.0.3.RELEASE/org.springframework:spring-beans:jar:4.3.14.RELEASE</node>
-            <node x="" y="">org.springframework.security.oauth:spring-security-oauth2:jar:2.0.3.RELEASE/org.springframework:spring-context:jar:4.3.14.RELEASE</node>
-            <node x="" y="">org.springframework.security.oauth:spring-security-oauth2:jar:2.0.3.RELEASE/org.springframework.security:spring-security-core:jar:4.2.4.RELEASE</node>
-            <node x="" y="">org.springframework.security.oauth:spring-security-oauth2:jar:2.0.3.RELEASE/org.springframework.security:spring-security-core:jar:4.2.4.RELEASE/aopalliance:aopalliance:jar:1.0</node>
-            <node x="" y="">org.springframework.security.oauth:spring-security-oauth2:jar:2.0.3.RELEASE/commons-codec:commons-codec:jar:1.10</node>
-            <node x="" y="">org.springframework.security.oauth:spring-security-oauth2:jar:2.0.3.RELEASE/org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13</node>
-            <node x="" y="">org.springframework.security.oauth:spring-security-oauth2:jar:2.0.3.RELEASE/org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13/org.codehaus.jackson:jackson-core-asl:jar:1.9.13</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.13186813186813187" x="1840.0" y="2129.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/social/FacebookAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/.m2/repository/org/springframework/security/oauth/spring-security-oauth2/2.0.3.RELEASE/spring-security-oauth2-2.0.3.RELEASE.jar!/org/springframework/security/oauth2/provider/token/TokenStore.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/entity/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        <state relative-caret-position="425">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="33" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/cors/OriginFilter.java">
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/AuthorizationServerConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/cors/MyConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="444">
+          <caret line="41" column="73" lean-forward="false" selection-start-line="41" selection-start-column="73" selection-end-line="41" selection-end-column="73" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/test/java/com/hui/vedio/userservice/UserServiceApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/mapper/RoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/UserServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="42" lean-forward="false" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+        <state relative-caret-position="425">
+          <caret line="63" column="21" lean-forward="false" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/mybatis/MybatisPlusConfig1.java">
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/CustomUserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+        <state relative-caret-position="274">
+          <caret line="19" column="64" lean-forward="true" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/mybatis/MybatisPlusConfig.java">
+    <entry file="jar://D:/.m2/repository/com/alibaba/druid/1.1.3/druid-1.1.3.jar!/com/alibaba/druid/support/http/WebStatFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="204" column="0" lean-forward="false" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.m2/repository/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.m2/repository/org/springframework/boot/spring-boot-actuator/1.5.10.RELEASE/spring-boot-actuator-1.5.10.RELEASE.jar!/org/springframework/boot/actuate/trace/WebRequestTraceFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="58" column="157" lean-forward="false" selection-start-line="58" selection-start-column="157" selection-end-line="58" selection-end-column="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.m2/repository/org/springframework/security/spring-security-web/4.2.4.RELEASE/spring-security-web-4.2.4.RELEASE.jar!/org/springframework/security/web/access/intercept/FilterSecurityInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.m2/repository/org/springframework/security/spring-security-web/4.2.4.RELEASE/spring-security-web-4.2.4.RELEASE.jar!/org/springframework/security/web/FilterChainProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="172" column="0" lean-forward="false" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.27/tomcat-embed-core-8.5.27.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/cors/MyConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/cors/OriginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/UrlAccessDecisionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="24" column="48" lean-forward="false" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/UrlFilterInvocationSecurityMetadataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/AuthenticationAccessDeniedHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.m2/repository/org/springframework/spring-core/4.3.14.RELEASE/spring-core-4.3.14.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="476" column="0" lean-forward="false" selection-start-line="476" selection-start-column="0" selection-end-line="476" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.m2/repository/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.m2/repository/org/springframework/spring-tx/4.3.14.RELEASE/spring-tx-4.3.14.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/impl/MyUserDetailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="83" column="42" lean-forward="true" selection-start-line="83" selection-start-column="42" selection-end-line="83" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/mapper/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/mapper/UserRoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/mapper/UserRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="83" column="83" lean-forward="true" selection-start-line="83" selection-start-column="83" selection-end-line="83" selection-end-column="83" />
+          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/Result.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="204">
+          <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="50" column="145" lean-forward="false" selection-start-line="50" selection-start-column="145" selection-end-line="50" selection-end-column="145" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/mybatis/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="76" column="11" lean-forward="true" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/mybatis/MybatisPlusConfig1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1802">
+          <caret line="136" column="9" lean-forward="false" selection-start-line="136" selection-start-column="9" selection-end-line="136" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/entity/UserRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/mapper/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <marker date="1521957809052" expanded="true" signature="532:1074" ph="SELECT role_... user_id" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/entity/LogicOpEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/entity/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+          <folding>
+            <element signature="e#1151#1152#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.m2/repository/com/baomidou/mybatis-plus/2.1-gamma/mybatis-plus-2.1-gamma-sources.jar!/com/baomidou/mybatisplus/mapper/BaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="35" column="17" lean-forward="false" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1254,6 +1190,7 @@
             <option name="proportions">
               <list>
                 <option value="0.4365942" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

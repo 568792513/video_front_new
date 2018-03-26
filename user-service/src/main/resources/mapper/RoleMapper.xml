@@ -5,7 +5,7 @@
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="com.hui.user_service.entity.Role">
         <id column="id" property="id"/>
-        <result column="name" property="name"/>
+        <result column="role_name" property="name"/>
     </resultMap>
 
     <select id="getRolesByUser" resultMap="BaseResultMap" parameterType="com.hui.user_service.entity.User">

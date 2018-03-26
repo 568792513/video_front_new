@@ -6,6 +6,8 @@ public class Result<T> {
 
     public static final int UNLOGIN = 1000;// 鉴权失败,需要登录
 
+    public static final int noRole = 403;// 鉴权失败,需要登录
+
     public static final int DANGER_CHAR = 1001;// 存在危险字符
 
     public static final int PARAM_VALIDATE_FAILED = 2000;// 参数校验失败

@@ -13,4 +13,21 @@ public interface RoleService extends IService<Role> {
      * @return
      */
     List<Role> getRolesByUser(User user);
+
+    /**
+     * 获取所有角色类型
+     * @param
+     * @return
+     */
+    List<Role> getRoles();
+
+    Role getRolesByRoleName(String name);
+
+    /**
+     * 为用户设置角色
+     * @param user
+     * @param roles
+     * @return
+     */
+    Boolean setRole(User user, List<Role> roles);
 }

@@ -31,7 +31,15 @@ spring:
     poolPreparedStatements: true
     maxOpenPreparedStatements: 20
     connection-properties: druid.stat.merggSql=ture;druid.stat.slowSqlMillis=5000
-
+  redis:
+    host: 120.79.143.237
+    port: 6379
+    password:
+    pool:
+      max-idle: 100
+      min-idle: 1
+      max-active: 1000
+      max-wait: -1
 # mybatis
 mybatis:
   mapper-locations: classpath*:/mapper/**Mapper.xml

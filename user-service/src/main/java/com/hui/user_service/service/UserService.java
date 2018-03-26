@@ -7,7 +7,7 @@ public interface UserService extends IService<User> {
 
 
     /**
-     * 保存用户
+     * 简单保存用户
      *
      * @param user
      * @return
@@ -21,5 +21,12 @@ public interface UserService extends IService<User> {
      * @return
      */
     User findUserByName(String name);
+
+    /**
+     * 注册用户 带角色
+     * @param user
+     * @return
+     */
+    Boolean register(User user);
 
 }

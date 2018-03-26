@@ -8,20 +8,23 @@ import java.io.Serializable;
 
 @TableName("t_role")
 @Data
-public class Role extends LogicOpEntity<Role> {
-    private static final long serialVersionUID = 1L;
+public class Role {
+
+    // 普通用户
+    public static final String ROLE_USER = "ROLE_USER";
+
+    // 管理员
+    public static final String ROLE_ADMIN = "ROLE_ADMIN";
+
+    // 会员
+    public static final String ROLE_VIP = "ROLE_VIP";
+
 
     private Long id;
 
     /**
      * 名字
      */
-    @TableField(value = "name")
+    @TableField(value = "role_name")
     private String name;
-
-
-    @Override
-    protected Serializable pkVal() {
-        return this.id;
-    }
 }
