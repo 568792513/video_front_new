@@ -44,12 +44,19 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements
         return null;
     }
 
+    @Override
+    public User findUserById(Long id) {
+        return userMapper.selectById(id);
+    }
+
     @Transactional
     @Override
     public Boolean register(User user) {
         if (user == null) {
             return false;
         }
+        //设置默认头像
+        user.setHeadImg("static/images/logo.png");
         //插入用户表
         userMapper.insert(user);
         // 设置角色
@@ -58,5 +65,15 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements
         roleList.add(role);
         roleService.setRole(user, roleList);
         return true;
+    }
+
+    @Override
+    public Boolean changePassword(User user, String password) {
+        if (user != null) {
+            user.setPassword(password);
+            Integer flag = userMapper.updateById(user);
+            return flag > 0;
+        }
+        return false;
     }
 }

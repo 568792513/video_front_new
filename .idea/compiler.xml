@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-service" />
         <module name="user-service" />
+        <module name="vedio-service" />
         <module name="vedioapp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-service" target="1.8" />
       <module name="user-service" target="1.8" />
+      <module name="vedio-service" target="1.8" />
       <module name="vedioapp" target="1.5" />
     </bytecodeTargetLevel>
   </component>

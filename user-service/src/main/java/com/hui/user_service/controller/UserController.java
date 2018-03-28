@@ -1,18 +1,19 @@
 package com.hui.user_service.controller;
 
 import com.hui.user_service.common.Result;
+import com.hui.user_service.common.utils.CookieUtils;
 import com.hui.user_service.entity.User;
+import com.hui.user_service.entity.vo.UserBaseVo;
 import com.hui.user_service.mapper.UserMapper;
 import com.hui.user_service.service.UserService;
 import org.apache.commons.lang.StringUtils;
+import org.springframework.beans.BeanUtils;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 //@CrossOrigin(origins = "http://127.0.0.1:8081", maxAge = 3600)
@@ -32,7 +33,7 @@ public class UserController {
     }
 
     @RequestMapping(value = "/getUsers", method = RequestMethod.GET)
-    public Result<User> getUsers() {
+    public Result<User> getUsers(HttpServletRequest request) {
         List<User> userList =  userMapper.selectList(null);
         return new Result(Result.SUCCESS, "请求成功", "", userList);
     }
@@ -84,4 +85,41 @@ public class UserController {
         return new Result(Result.SUCCESS, "error", "尚未登录，请登录!");
     }
 
+    /**
+     * 获取用户的基本信息
+     * @param request
+     * @return
+     */
+    @RequestMapping(value = "/getMyInfo", method = RequestMethod.GET)
+    public Result myInfo(HttpServletRequest request){
+        User user = CookieUtils.getUserByToken(request);
+        UserBaseVo userBaseVo = new UserBaseVo();
+        if (user != null){
+            BeanUtils.copyProperties(user, userBaseVo);
+            return new Result<>(Result.SUCCESS, "", "获取成功", userBaseVo);
+        } else {
+            return new Result<>(Result.SERVER_ERROR, "", "获取失败");
+        }
+    }
+
+    @RequestMapping(value = "/isLogin", method = RequestMethod.GET)
+    public Result isLogin(HttpServletRequest request){
+        User user = CookieUtils.getUserByToken(request);
+        if (user != null){
+            return new Result<>(Result.SUCCESS, "", "");
+        } else {
+            return new Result<>(Result.SERVER_ERROR, "", "");
+        }
+    }
+
+    @RequestMapping(value = "/editPassword", method = RequestMethod.POST)
+    public Result editPassword(@RequestParam(value = "checkPass")String password, HttpServletRequest request){
+        User user = CookieUtils.getUserByToken(request);
+        if (user != null){
+            Boolean flag = userService.changePassword(user, password);
+            return flag ? new Result<>(Result.SUCCESS, "修改成功", "") : new Result<>(Result.SERVER_ERROR, "修改失败", "");
+        } else {
+            return new Result<>(Result.PARAM_ERROR, "修改失败", "");
+        }
+    }
 }

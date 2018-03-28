@@ -1,6 +1,11 @@
 package com.hui.user_service.common.config.security;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.hui.user_service.common.Result;
+import com.hui.user_service.entity.User;
+import com.hui.user_service.service.UserService;
 import com.hui.user_service.service.impl.MyUserDetailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -36,6 +41,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+// 参考 https://blog.csdn.net/u012702547/article/details/79019510
+//     https://segmentfault.com/a/1190000013057238
+
 @Configuration
 // 启用Spring Security的Web安全支持
 @EnableWebSecurity
@@ -51,6 +59,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     UrlAccessDecisionManager urlAccessDecisionManager;
     @Autowired
     AuthenticationAccessDeniedHandler authenticationAccessDeniedHandler;
+
+    @Resource
+    private UserService userService;
 
     @Bean
     public MyUserDetailService myUserDetailsService() {
@@ -153,14 +164,20 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                         httpServletResponse.setContentType("application/json;charset=utf-8");
                         PrintWriter out = httpServletResponse.getWriter();
                         ObjectMapper objectMapper = new ObjectMapper();
-                        String s = "{\"code\":\"0\",\"msg\":\"登陆成功\"}";
-                        out.write(s);
+                        User user = (User) authentication.getPrincipal();
+                        String jsonObject = JSON.toJSONString(new Result<>(Result.SUCCESS, "登录成功", "", user));
+//                        String s = "{\"code\":\"0\",\"msg\":\"登陆成功\",";
+//                        s = s + "\"data\":\"" + "{\"name\":\"" + user.getName() + "\"id\":\"" + user.getId() + "\"}}";
+                        out.write(jsonObject);
                         out.flush();
                         out.close();
                     }
                 })
                 .and()
                 .logout()
+                .logoutUrl("/api/web/user/logout")
+                //设置注销成功后跳转页面，默认是跳转到登录页面
+                .logoutSuccessUrl("/api/web/user/home")
                 .permitAll()
                 .and()
                 .csrf().disable()

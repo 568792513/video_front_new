@@ -2,6 +2,8 @@ package com.hui.user_service.entity;
 
 import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.annotations.TableName;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -10,6 +12,7 @@ import java.io.Serializable;
 import java.util.Collection;
 import java.util.List;
 
+@JsonIgnoreProperties(value={"password"}) //希望动态过滤掉的属性
 @TableName("t_user")
 @Data
 public class User extends LogicOpEntity<User> implements UserDetails {
@@ -26,8 +29,12 @@ public class User extends LogicOpEntity<User> implements UserDetails {
     /**
      * 密码
      */
+    @JsonIgnore
     @TableField(value = "password")
     private String password;
+
+    @TableField("head_img")
+    private String headImg;
 
     @Override
     protected Serializable pkVal() {

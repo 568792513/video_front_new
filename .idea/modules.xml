@@ -4,7 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../vedioapp/eureka-service/eureka-service.iml" filepath="$PROJECT_DIR$/../vedioapp/eureka-service/eureka-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/../vedioapp/user-service/user-service.iml" filepath="$PROJECT_DIR$/../vedioapp/user-service/user-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/vedioapp.iml" filepath="$PROJECT_DIR$/vedioapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vedioapp/vedio-service/vedio-service.iml" filepath="$PROJECT_DIR$/../vedioapp/vedio-service/vedio-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vedioapp/vedioapp.iml" filepath="$PROJECT_DIR$/../vedioapp/vedioapp.iml" />
     </modules>
   </component>
 </project>

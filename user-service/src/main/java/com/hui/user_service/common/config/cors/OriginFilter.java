@@ -27,7 +27,7 @@ public class OriginFilter implements Filter {
         HttpServletResponse response = (HttpServletResponse) res;
         HttpServletRequest request = (HttpServletRequest) req;
 //        response.setHeader("Access-Control-Allow-Origin",request.getHeader("origin"));
-        response.setHeader("Access-Control-Allow-Origin","*");  //允许跨域访问的域
+        response.setHeader("Access-Control-Allow-Origin",request.getHeader("origin"));  //允许跨域访问的域
         response.setHeader("Access-Control-Allow-Methods","POST,GET,OPTIONS,DELETE,PUT");  //允许使用的请求方法
         response.setHeader("Access-Control-Expose-Headers","*");
         response.setHeader("Access-Control-Allow-Headers", "x-requested-with,Cache-Control,Pragma,Content-Type,Authorization");
