@@ -5,15 +5,20 @@ import com.hui.user_service.common.utils.CookieUtils;
 import com.hui.user_service.entity.User;
 import com.hui.user_service.entity.vo.UserBaseVo;
 import com.hui.user_service.mapper.UserMapper;
+import com.hui.user_service.service.UploadFeignService;
 import com.hui.user_service.service.UserService;
+import com.sun.imageio.plugins.common.InputStreamAdapter;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import java.io.FileInputStream;
+import java.io.InputStream;
 import java.util.List;
 
 //@CrossOrigin(origins = "http://127.0.0.1:8081", maxAge = 3600)
@@ -25,6 +30,9 @@ public class UserController {
 
     @Resource
     private UserMapper userMapper;
+
+    @Resource
+    private UploadFeignService uploadFeignService;
 
     @RequestMapping(value = "/save", method = RequestMethod.POST)
     public Result<User> save(User user) {
@@ -121,5 +129,11 @@ public class UserController {
         } else {
             return new Result<>(Result.PARAM_ERROR, "修改失败", "");
         }
+    }
+
+    @PostMapping(value = "/uploadHeadImg")
+    public Result uploadHeadImg(@RequestParam("file") MultipartFile multipartFile, HttpServletRequest request){
+        Boolean flag = uploadFeignService.uploadFile(multipartFile, "sb");
+        return flag ? new Result<>(Result.SUCCESS, "修改成功", "") : new Result<>(Result.PARAM_ERROR, "修改失败", "");
     }
 }

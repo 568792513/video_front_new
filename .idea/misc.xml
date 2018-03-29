@@ -10,6 +10,9 @@
         <option value="$PROJECT_DIR$/../vedioapp/user-service/pom.xml" />
         <option value="$PROJECT_DIR$/../vedioapp/eureka-service/pom.xml" />
         <option value="$PROJECT_DIR$/../vedioapp/vedio-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../vedioapp/vedio/pom.xml" />
+        <option value="$PROJECT_DIR$/../vedioapp/files-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../vedioapp/zuul-gateway/pom.xml" />
       </list>
     </option>
   </component>

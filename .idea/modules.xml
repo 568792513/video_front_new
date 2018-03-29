@@ -3,9 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../vedioapp/eureka-service/eureka-service.iml" filepath="$PROJECT_DIR$/../vedioapp/eureka-service/eureka-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vedioapp/file-service/file-service.iml" filepath="$PROJECT_DIR$/../vedioapp/file-service/file-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vedioapp/files-service/files-service.iml" filepath="$PROJECT_DIR$/../vedioapp/files-service/files-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/../vedioapp/user-service/user-service.iml" filepath="$PROJECT_DIR$/../vedioapp/user-service/user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/../vedioapp/vedio-service/vedio-service.iml" filepath="$PROJECT_DIR$/../vedioapp/vedio-service/vedio-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/../vedioapp/vedioapp.iml" filepath="$PROJECT_DIR$/../vedioapp/vedioapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vedioapp/zuul-gateway/zuul-gateway.iml" filepath="$PROJECT_DIR$/../vedioapp/zuul-gateway/zuul-gateway.iml" />
     </modules>
   </component>
 </project>

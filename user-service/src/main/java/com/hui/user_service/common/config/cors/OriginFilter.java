@@ -9,9 +9,6 @@ import java.io.IOException;
 
 /**
  * 处理跨域问题
- * @author MR.ZHENG
- * @date 2016/08/08
- *
  */
 @Component
 public class OriginFilter implements Filter {

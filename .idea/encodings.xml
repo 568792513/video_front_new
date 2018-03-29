@@ -2,7 +2,11 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/../vedioapp/eureka-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../vedioapp/file-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../vedioapp/file-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../vedioapp/files-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../vedioapp/user-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../vedioapp/vedio-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../vedioapp/zuul-gateway" charset="UTF-8" />
   </component>
 </project>
