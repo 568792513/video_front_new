@@ -23,15 +23,13 @@ public class FileServiceImpl implements FileService {
     //密码
     @Value("${FTP_PASSWORD}")
     private String FTP_PASSWORD;
-    //基本路径
-    @Value("${FTP_BASEPATH}")
-    private String FTP_BASEPATH;
+
     //下载地址地基础url
     @Value("${IMAGE_BASE_URL}")
     private String IMAGE_BASE_URL;
 
     @Override
-    public Boolean uploadFile(MultipartFile uploadFile, String newName) {
+    public Boolean uploadFile(MultipartFile uploadFile, String newName, String basePath) {
         try {
             // 生成一个文件名
             // 获取旧的名字
@@ -40,10 +38,10 @@ public class FileServiceImpl implements FileService {
 //            newName = newName + oldName.substring(oldName.lastIndexOf("."));
             //端口号
             int port = Integer.parseInt(FTP_PORT);
-            System.out.println(FTP_BASEPATH);
+            System.out.println(basePath);
             //调用方法，上传文件
             boolean result = FtpFileUtil.uploadFile(FTP_ADDRESS, port,
-                    FTP_USERNAME, FTP_PASSWORD, FTP_BASEPATH,
+                    FTP_USERNAME, FTP_PASSWORD, basePath,
                     newName, uploadFile.getInputStream());
 
             return result;

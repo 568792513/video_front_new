@@ -10,6 +10,7 @@ import com.hui.user_service.service.UserService;
 import com.sun.imageio.plugins.common.InputStreamAdapter;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
@@ -25,6 +26,9 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/web/user")
 public class UserController {
+    @Value("${FtpHeadImgPath}")
+    private String ftpHeadImgPath;
+
     @Resource
     private UserService userService;
 
@@ -131,9 +135,26 @@ public class UserController {
         }
     }
 
+    @Transactional
     @PostMapping(value = "/uploadHeadImg")
     public Result uploadHeadImg(@RequestParam("file") MultipartFile multipartFile, HttpServletRequest request){
-        Boolean flag = uploadFeignService.uploadFile(multipartFile, "sb");
-        return flag ? new Result<>(Result.SUCCESS, "修改成功", "") : new Result<>(Result.PARAM_ERROR, "修改失败", "");
+        User user = CookieUtils.getUserByToken(request);
+        // 设置图片名
+        if (user != null) {
+            String fileName = "head_img_" + user.getId().toString() + ".jpg";
+            Boolean flag = uploadFeignService.uploadFile(multipartFile, fileName);
+            if (flag){
+                String newHeadImg = "http://" + ftpHeadImgPath + fileName;
+                user.setHeadImg(newHeadImg);
+                Integer result = userMapper.updateById(user);
+                return result > 0 ? new Result<>(Result.SUCCESS, "修改成功", "", newHeadImg) : new Result<>(Result.PARAM_ERROR, "修改失败", "" );
+            }
+        }
+        return new Result<>(Result.PARAM_ERROR, "修改失败", "");
+    }
+
+    @GetMapping("/getUserById")
+    public User getUserById(@RequestParam("userId") Long userId){
+        return userMapper.selectById(userId);
     }
 }

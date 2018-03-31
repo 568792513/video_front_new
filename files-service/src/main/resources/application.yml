@@ -62,11 +62,13 @@ FTP_ADDRESS: 120.79.143.237
 FTP_PORT: 21
 FTP_USERNAME: zhftp
 FTP_PASSWORD: 123456
-FTP_BASEPATH: /head_img/
+FTP_HEADIMGPATH: /head_img/
+FTP_VIDEOIMGPATH: /video_img/
+FTP_VIDEOFILEPATH: /video_file/
 #图片服务器相关配置
 IMAGE_BASE_URL: http://120.79.143.237
 #修改文件大小限制
 multipart:
   enabled: true
-  max-file-size: 50mb
-  max-request-size: 50mb
+  max-file-size: 200mb
+  max-request-size: 200mb

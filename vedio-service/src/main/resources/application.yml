@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8082
 
 eureka:
   client:
@@ -9,7 +9,11 @@ eureka:
 # ��������Դ
 spring:
   application:
-    name: user-service
+    name: vedio-service
+  http:
+    multipart:
+      maxFileSize: 1000Mb
+      maxRequestSize: 1000Mb
   datasource:
     url: jdbc:mysql://120.79.143.237:3306/hui
     username: root
@@ -43,7 +47,7 @@ spring:
 # mybatis
 mybatis:
   mapper-locations: classpath*:/mapper/**Mapper.xml
-  typeAliasesPackage: com.hui.user_service.entity
+  typeAliasesPackage: com.hui.vedio_service.vedio.entity
   configuration:
     map-underscore-to-camel-case: true
     cache-enabled: false
@@ -79,4 +83,5 @@ feign:
 ribbon:
   ReadTimeout: 12000
   ConnectTimeout: 30000
-FtpHeadImgPath: 120.79.143.237/head_img/
+
+FtpVideoPath: 120.79.143.237/Video/

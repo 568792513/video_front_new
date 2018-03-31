@@ -4,7 +4,23 @@ server:
 spring:
   application:
     name: zuul-gateway
+  http:
+    multipart:
+     maxFileSize: 1000Mb
+     maxRequestSize: 1000Mb
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8000/eureka/
+management:
+  security:
+    enabled: false
+zuul:
+  sensitive-headers:
+  host:
+      socket-timeout-millis: 60000
+      connect-timeout-millis: 60000
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
+

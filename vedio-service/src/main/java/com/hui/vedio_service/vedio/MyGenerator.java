@@ -3,7 +3,7 @@
  * 
  * All rights reserved.
  */
-package com.hui.user_service;
+package com.hui.vedio_service.vedio;
 
 import com.baomidou.mybatisplus.generator.AutoGenerator;
 import com.baomidou.mybatisplus.generator.config.DataSourceConfig;
@@ -26,7 +26,7 @@ public class MyGenerator {
         AutoGenerator mpg = new AutoGenerator();
         // 全局配置
         GlobalConfig gc = new GlobalConfig();
-        gc.setOutputDir("H:\\video\\user_service\\src\\main\\java\\com\\hui\\user_service\\src\\main\\java");
+        gc.setOutputDir("H:\\vedioapp\\vedio-service\\src\\main\\java\\com\\hui\\vedio_service\\vedio");
         gc.setFileOverride(true);
         gc.setActiveRecord(true);
         gc.setEnableCache(false);// XML 二级缓存
@@ -68,7 +68,7 @@ public class MyGenerator {
         // String[]{"t_"}));// 表名生成策略
         // strategy.setExclude(new String[] { "" }); // 排除生成的表
 
-        strategy.setInclude(new String[]{"t_user"}); // 需要生成的表
+        strategy.setInclude(new String[]{"t_vedio"}); // 需要生成的表
 
         // 字段名生成策略
         strategy.setNaming(NamingStrategy.underline_to_camel);
@@ -93,8 +93,8 @@ public class MyGenerator {
         mpg.setStrategy(strategy);
         // 包配置
         PackageConfig pc = new PackageConfig();
-        pc.setParent("com.hui.user_service");
-        pc.setModuleName("com/hui/user_service");
+        pc.setParent("com.hui.vedio_service.vedio");
+        pc.setModuleName("com/hui/vedio_service/vedio");
         // pc.setController("controller");
         mpg.setPackageInfo(pc);
 

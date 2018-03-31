@@ -1,6 +1,7 @@
 package com.hui.filesservice.controller;
 
 import com.hui.filesservice.service.FileService;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,11 +17,51 @@ import static org.springframework.http.MediaType.MULTIPART_FORM_DATA_VALUE;
 @RequestMapping("/File")
 public class FileUploadController {
 
+    // 存放头像的目录
+    @Value("${FTP_HEADIMGPATH}")
+    private String FTP_HEADIMGPATH;
+
+    // 存放视频封面的目录
+    @Value("${FTP_VIDEOIMGPATH}")
+    private String FTP_VIDEOIMGPATH;
+
+    // 存放视频的目录
+    @Value("${FTP_VIDEOFILEPATH}")
+    private String FTP_VIDEOFILEPATH;
+
     @Resource
     private FileService fileService;
 
+    /**
+     * 上传头像
+     * @param multipartFile
+     * @param newName
+     * @return
+     */
     @PostMapping(value = "/upload",  consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     public Boolean upload(@RequestParam("file") MultipartFile multipartFile, @RequestParam("newName") String newName){
-        return fileService.uploadFile(multipartFile, newName);
+        return fileService.uploadFile(multipartFile, newName, FTP_HEADIMGPATH);
+    }
+
+    /**
+     * 上传视频封面
+     * @param multipartFile
+     * @param newName
+     * @return
+     */
+    @PostMapping(value = "/uploadFile",  consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
+    public Boolean uploadFile(@RequestParam("imgFile") MultipartFile multipartFile, @RequestParam("ImgFileName") String newName){
+        return fileService.uploadFile(multipartFile, newName, FTP_VIDEOIMGPATH);
+    }
+
+    /**
+     * 上传视频
+     * @param multipartFile
+     * @param newName
+     * @return
+     */
+    @PostMapping(value = "/uploadVideoFile",  consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
+    public Boolean uploadVideoFile(@RequestParam("videoFile") MultipartFile multipartFile, @RequestParam("videoFileName") String newName){
+        return fileService.uploadFile(multipartFile, newName, FTP_VIDEOFILEPATH);
     }
 }
