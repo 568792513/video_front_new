@@ -33,12 +33,20 @@ public class Vedio extends LogicOpEntity<Vedio> {
 	private Double size;
 	@TableField("length_time")
 	private Date lengthTime;
+	@TableField("introduction")
 	private String introduction;
 	@TableField("play_amount")
 	private Integer playAmount;
 	@TableField("comment_amount")
 	private Integer commentAmount;
 	private String remark;
+
+	@TableField("video_img_in_ftp")
+	private String videoImgInFtp;
+
+	@TableField("video_file_in_ftp")
+	private String videoFileInFtp;
+
 
 
 	public Long getId() {
@@ -117,7 +125,7 @@ public class Vedio extends LogicOpEntity<Vedio> {
 		return introduction;
 	}
 
-	public void setIntroduction(String Introduction) {
+	public void setIntroduction(String introduction) {
 		this.introduction = introduction;
 	}
 
@@ -143,6 +151,22 @@ public class Vedio extends LogicOpEntity<Vedio> {
 
 	public void setRemark(String remark) {
 		this.remark = remark;
+	}
+
+	public String getVideoImgInFtp() {
+		return videoImgInFtp;
+	}
+
+	public void setVideoImgInFtp(String videoImgInFtp) {
+		this.videoImgInFtp = videoImgInFtp;
+	}
+
+	public String getVideoFileInFtp() {
+		return videoFileInFtp;
+	}
+
+	public void setVideoFileInFtp(String videoFileInFtp) {
+		this.videoFileInFtp = videoFileInFtp;
 	}
 
 	@Override

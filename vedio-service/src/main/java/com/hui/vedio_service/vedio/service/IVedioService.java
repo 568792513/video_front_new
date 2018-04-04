@@ -1,5 +1,6 @@
 package com.hui.vedio_service.vedio.service;
 
+import com.baomidou.mybatisplus.plugins.Page;
 import com.baomidou.mybatisplus.service.IService;
 import com.hui.vedio_service.vedio.entity.Vedio;
 
@@ -18,5 +19,7 @@ public interface IVedioService extends IService<Vedio> {
 	 * @return
 	 */
 	List<Vedio> getAllVideoByUserId(Long userId);
+
+	Page<Vedio> selectVideoPage(Page<Vedio> page, Long userId);
 
 }

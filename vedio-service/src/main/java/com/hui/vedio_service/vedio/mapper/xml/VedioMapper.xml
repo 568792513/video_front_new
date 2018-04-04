@@ -20,6 +20,8 @@
 		<result column="play_amount" property="playAmount" />
 		<result column="comment_amount" property="commentAmount" />
 		<result column="remark" property="remark" />
+		<result column="video_img_in_ftp" property="videoImgInFtp" />
+		<result column="video_file_in_ftp" property="videoFileInFtp" />
 	</resultMap>
 
 </mapper>

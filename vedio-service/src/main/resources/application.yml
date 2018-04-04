@@ -15,7 +15,7 @@ spring:
       maxFileSize: 1000Mb
       maxRequestSize: 1000Mb
   datasource:
-    url: jdbc:mysql://120.79.143.237:3306/hui
+    url: jdbc:mysql://120.79.143.237:3306/hui?useUnicode=true&characterEncoding=UTF-8
     username: root
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
@@ -84,4 +84,5 @@ ribbon:
   ReadTimeout: 12000
   ConnectTimeout: 30000
 
-FtpVideoPath: 120.79.143.237/Video/
+FtpVideoPath: 120.79.143.237/video_file/
+FtpVideoImgPath: 120.79.143.237/video_img/

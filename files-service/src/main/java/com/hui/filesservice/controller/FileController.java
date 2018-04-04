@@ -15,7 +15,7 @@ import static org.springframework.http.MediaType.MULTIPART_FORM_DATA_VALUE;
 
 @RestController
 @RequestMapping("/File")
-public class FileUploadController {
+public class FileController {
 
     // 存放头像的目录
     @Value("${FTP_HEADIMGPATH}")
@@ -63,5 +63,35 @@ public class FileUploadController {
     @PostMapping(value = "/uploadVideoFile",  consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     public Boolean uploadVideoFile(@RequestParam("videoFile") MultipartFile multipartFile, @RequestParam("videoFileName") String newName){
         return fileService.uploadFile(multipartFile, newName, FTP_VIDEOFILEPATH);
+    }
+
+    /**
+     * 删除视频文件
+     * @param fileName
+     * @return
+     */
+    @PostMapping(value = "/removeVideoFile")
+    public Boolean removeVideoFile(@RequestParam("fileName") String fileName){
+        return fileService.removeFile(fileName, FTP_VIDEOFILEPATH);
+    }
+
+    /**
+     * 删除视频封面
+     * @param fileName
+     * @return
+     */
+    @PostMapping(value = "/removeVideoImg")
+    public Boolean removeVideoImg(@RequestParam("fileName") String fileName){
+        return fileService.removeFile(fileName, FTP_VIDEOIMGPATH);
+    }
+
+    /**
+     * 删除头像
+     * @param fileName
+     * @return
+     */
+    @PostMapping(value = "/removeHeadImg")
+    public Boolean removeHeadImg(@RequestParam("fileName") String fileName){
+        return fileService.removeFile(fileName, FTP_HEADIMGPATH);
     }
 }

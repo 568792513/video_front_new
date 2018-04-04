@@ -100,10 +100,50 @@ public class FtpFileUtil {
                 try {
                     ftp.disconnect();
                 } catch (IOException ioe) {
+                    ioe.printStackTrace();
                 }
             }
         }
         return result;
+    }
+
+    // 删除文件至FTP通用方法
+    public static boolean deleteFileFtp(String host, int port, String username, String password, String basePath,
+                                     String filename){
+        FTPClient ftp = new FTPClient();
+        try {
+            int reply;
+            ftp.connect(host, port);// 连接FTP服务器
+            // 如果采用默认端口，可以使用ftp.connect(host)的方式直接连接FTP服务器
+            ftp.login(username, password);// 登录
+            ftp.enterLocalPassiveMode();
+            reply = ftp.getReplyCode();
+            if (!FTPReply.isPositiveCompletion(reply)) {
+                ftp.disconnect();
+                return false;
+            }
+            //切换到目录
+            if (!ftp.changeWorkingDirectory(basePath)) {
+                ftp.changeWorkingDirectory(basePath);
+            }
+            if (ftp.deleteFile(filename)) {
+                return true;
+            }
+            ftp.logout();
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println("删除文件失败！");
+            return false;
+        } finally {
+            if (ftp.isConnected()) {
+                try {
+                    ftp.disconnect();
+                } catch (IOException ioe) {
+                    ioe.printStackTrace();
+                }
+            }
+        }
     }
 
     /**

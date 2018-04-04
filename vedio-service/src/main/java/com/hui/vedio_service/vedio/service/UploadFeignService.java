@@ -19,6 +19,15 @@ public interface UploadFeignService {
             consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     Boolean uploadVideoFile(@RequestPart("videoFile") MultipartFile multipartFile, @RequestParam("videoFileName") String newName);
 
+    @PostMapping(value = "/File/removeVideoFile", produces = {MediaType.APPLICATION_JSON_UTF8_VALUE})
+    Boolean removeVideoFile(@RequestParam("fileName") String fileName);
+
+    @PostMapping(value = "/File/removeVideoImg", produces = {MediaType.APPLICATION_JSON_UTF8_VALUE})
+    Boolean removeVideoImg(@RequestParam("fileName") String fileName);
+
+    @PostMapping(value = "/File/removeHeadImg", produces = {MediaType.APPLICATION_JSON_UTF8_VALUE})
+    Boolean removeHeadImg(@RequestParam("fileName") String fileName);
+
 //    class MultipartSupportConfig {
 //        @Bean
 //        public Encoder feignFormEncoder() {

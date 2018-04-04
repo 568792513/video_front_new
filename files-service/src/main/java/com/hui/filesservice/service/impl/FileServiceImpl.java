@@ -43,11 +43,17 @@ public class FileServiceImpl implements FileService {
             boolean result = FtpFileUtil.uploadFile(FTP_ADDRESS, port,
                     FTP_USERNAME, FTP_PASSWORD, basePath,
                     newName, uploadFile.getInputStream());
-
             return result;
 
         } catch (IOException e) {
             return false;
         }
+    }
+
+    @Override
+    public Boolean removeFile(String fileName, String basePath) {
+        //端口号
+        int port = Integer.parseInt(FTP_PORT);
+        return FtpFileUtil.deleteFileFtp(FTP_ADDRESS, port, FTP_USERNAME, FTP_PASSWORD, basePath, fileName);
     }
 }

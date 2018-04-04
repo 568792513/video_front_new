@@ -144,6 +144,7 @@ public class UserController {
             String fileName = "head_img_" + user.getId().toString() + ".jpg";
             Boolean flag = uploadFeignService.uploadFile(multipartFile, fileName);
             if (flag){
+                user.setNameInFtp(fileName);
                 String newHeadImg = "http://" + ftpHeadImgPath + fileName;
                 user.setHeadImg(newHeadImg);
                 Integer result = userMapper.updateById(user);

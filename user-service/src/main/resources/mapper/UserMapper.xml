@@ -8,6 +8,7 @@
         <result column="name" property="name"/>
         <result column="password" property="password"/>
         <result column="create_time" property="createTime"/>
+        <result column="name_in_ftp" property="nameInFtp"/>
         <result column="update_time" property="updateTime"/>
         <result column="del_flag" property="delFlag"/>
     </resultMap>

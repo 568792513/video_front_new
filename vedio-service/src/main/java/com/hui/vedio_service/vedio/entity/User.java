@@ -33,6 +33,9 @@ public class User extends LogicOpEntity<User>{
     @TableField("head_img")
     private String headImg;
 
+    @TableField("name_in_ftp")
+    private String nameInFtp;
+
     @Override
     protected Serializable pkVal() {
         return this.id;
