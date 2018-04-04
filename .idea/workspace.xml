@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7489744c-011e-4d4b-b462-8e29737e1345" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/test/java/com/hui/vedio_service/vedio/VideoTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../vedioapp/file-service/src/main/java/com/hui/vedio/fileservice/utils/123.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/resources/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../vedioapp/files-service/src/main/java/com/hui/filesservice/utils/123.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../vedioapp/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/files-service/src/main/java/com/hui/filesservice/service/FileService.java" afterPath="$PROJECT_DIR$/../vedioapp/files-service/src/main/java/com/hui/filesservice/service/FileService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/files-service/src/main/java/com/hui/filesservice/service/impl/FileServiceImpl.java" afterPath="$PROJECT_DIR$/../vedioapp/files-service/src/main/java/com/hui/filesservice/service/impl/FileServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/files-service/src/main/java/com/hui/filesservice/utils/FtpFileUtil.java" afterPath="$PROJECT_DIR$/../vedioapp/files-service/src/main/java/com/hui/filesservice/utils/FtpFileUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/files-service/src/test/java/com/hui/filesservice/FilesServiceApplicationTests.java" afterPath="$PROJECT_DIR$/../vedioapp/files-service/src/test/java/com/hui/filesservice/FilesServiceApplicationTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/controller/UserController.java" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/entity/User.java" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/entity/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/mapper/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/entity/User.java" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/entity/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/entity/Vedio.java" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/entity/Vedio.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/mapper/xml/VedioMapper.xml" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/mapper/xml/VedioMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/service/IVedioService.java" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/service/IVedioService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/service/UploadFeignService.java" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/service/UploadFeignService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/service/impl/VedioServiceImpl.java" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/service/impl/VedioServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/web/VedioController.java" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/web/VedioController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/resources/application.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../vedioapp/files-service/src/main/java/com/hui/filesservice/controller/FileUploadController.java" afterPath="$PROJECT_DIR$/../vedioapp/files-service/src/main/java/com/hui/filesservice/controller/FileController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../vedioapp/out/" />
     <ignored path="$PROJECT_DIR$/../vedioapp/target/" />
@@ -725,7 +707,7 @@
       <workItem from="1522734809627" duration="14082000" />
       <workItem from="1522809413601" duration="561000" />
       <workItem from="1522813612176" duration="143000" />
-      <workItem from="1522823347404" duration="10710000" />
+      <workItem from="1522823347404" duration="11369000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1521858234868</created>
@@ -769,7 +751,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522510258528</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="我的视频页面&#10;ftp删除文件&#10;修改视频信息">
+      <created>1522850375903</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1522850375904</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -802,7 +791,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160886000" />
+    <option name="totallyTimeSpent" value="161545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -853,7 +842,8 @@
     <MESSAGE value="修改密码&#10;ftp nginx服务器" />
     <MESSAGE value="上传图片到ftp服务器&#10;feign上传问题解决&#10;zuil feign集成&#10;fileservice模块完成部分" />
     <MESSAGE value="zuul整合&#10;上传视频功能完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="zuul整合&#10;上传视频功能完成" />
+    <MESSAGE value="我的视频页面&#10;ftp删除文件&#10;修改视频信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="我的视频页面&#10;ftp删除文件&#10;修改视频信息" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
