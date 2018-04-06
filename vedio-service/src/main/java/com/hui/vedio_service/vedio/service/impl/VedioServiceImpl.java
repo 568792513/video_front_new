@@ -40,9 +40,9 @@ public class VedioServiceImpl extends ServiceImpl<VedioMapper, Vedio> implements
         // page.setSearchCount(false);
         EntityWrapper wrapper = new EntityWrapper();
         wrapper.where("user_id={0}", userId);
-        List<Vedio> list = vedioMapper.selectList(wrapper);
-        page.setRecords(list);
+        List<Vedio> list = vedioMapper.selectPage(page, wrapper);
         page.setTotal(list.size());
+        page.setRecords(list);
         return page;
     }
 }

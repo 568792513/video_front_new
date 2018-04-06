@@ -40,14 +40,10 @@ public class Vedio extends LogicOpEntity<Vedio> {
 	@TableField("comment_amount")
 	private Integer commentAmount;
 	private String remark;
-
 	@TableField("video_img_in_ftp")
 	private String videoImgInFtp;
-
 	@TableField("video_file_in_ftp")
 	private String videoFileInFtp;
-
-
 
 	public Long getId() {
 		return id;

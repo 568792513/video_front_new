@@ -7,6 +7,7 @@ import com.hui.vedio_service.vedio.common.Result;
 import com.hui.vedio_service.vedio.common.utils.CookieUtils;
 import com.hui.vedio_service.vedio.entity.User;
 import com.hui.vedio_service.vedio.entity.Vedio;
+import com.hui.vedio_service.vedio.entity.vo.VideoPageVo;
 import com.hui.vedio_service.vedio.mapper.VedioMapper;
 import com.hui.vedio_service.vedio.service.IVedioService;
 import com.hui.vedio_service.vedio.service.UploadFeignService;
@@ -22,7 +23,9 @@ import org.springframework.web.multipart.MultipartFile;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
-import java.util.List;
+import java.text.SimpleDateFormat;
+import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * <p>
@@ -137,7 +140,13 @@ public class VedioController {
             return new Result<>(Result.PARAM_ERROR, "无法获取到用户", "");
         }
         Page<Vedio> vedioPage = vedioService.selectVideoPage(page, userId);
-        return new Result<>(Result.SUCCESS, "获取成功", "", vedioPage);
+        VideoPageVo videoPageVo = new VideoPageVo();
+        videoPageVo.setPage(vedioPage);
+        EntityWrapper wrapper = new EntityWrapper();
+        wrapper.where("user_id={0}", userId);
+        List<Vedio> list = vedioMapper.selectList(wrapper);
+        videoPageVo.setTotal(list.size());
+        return new Result<>(Result.SUCCESS, "获取成功", "", videoPageVo);
     }
 
     /**
@@ -165,13 +174,21 @@ public class VedioController {
         return flag > 0 ? new Result<>(Result.SUCCESS, "修改成功", "") : new Result<>(Result.SERVER_ERROR, "服务器发生错误", "");
     }
 
+    /**
+     * 我的视频页面删除视频
+     * @param
+     * @return
+     */
     @Transactional
     @PostMapping(value = "/removeVideo")
-    public Result removeVide(Vedio vedio){
-        if (vedio == null || StringUtils.isEmpty(vedio.getId())){
+    public Result removeVide(Long videoId){
+        if (StringUtils.isEmpty(videoId)){
             return new Result<>(Result.PARAM_ERROR, "参数有空值", "");
         }
-        Vedio vedioInDb = vedioMapper.selectById(vedio.getId());
+        Vedio vedioInDb = vedioMapper.selectById(videoId);
+        if (vedioInDb == null){
+            return new Result<>(Result.PARAM_ERROR, "无此视频", "");
+        }
 
         //删除ftp上的文件
         Boolean removeVideoFileFlag = uploadFeignService.removeVideoFile(vedioInDb.getVideoFileInFtp());
@@ -185,11 +202,116 @@ public class VedioController {
         }
 
         //删除库中记录
-        Integer flag = vedioMapper.deleteById(vedio.getId());
+        vedioInDb.setDelFlag(1);
+        Integer flag = vedioMapper.updateById(vedioInDb);
         if (flag <= 0){
             return new Result<>(Result.SERVER_ERROR, "服务器发生错误", "");
         }
         return new Result<>(Result.SUCCESS, "删除成功", "");
+    }
+
+    /**
+     * 通过id获取视频
+     * @param videoId
+     * @return
+     */
+    @PostMapping(value = "/getVideoById")
+    public Result getVideoById(String videoId){
+        if (StringUtils.isEmpty(videoId)){
+            return new Result<>(Result.PARAM_ERROR, "参数有空值", "");
+        }
+        Long id = Long.valueOf(videoId);
+        Vedio vedioInDb = vedioMapper.selectById(id);
+        if (vedioInDb == null){
+            return new Result<>(Result.PARAM_ERROR, "无此视频", "");
+        }
+        return new Result<>(Result.SUCCESS, "获取成功", "", vedioInDb);
+    }
+
+    @GetMapping(value = "/getHomePageVideo")
+    public Result getAllVideo(){
+        EntityWrapper<Vedio> wrapper = new EntityWrapper<>();
+        wrapper.where("del_flag={0}", 0);
+        List<Vedio> vedioList = vedioMapper.selectList(wrapper);
+        // 按时间排序
+        vedioList.sort(new Comparator<Vedio>() {
+            @Override
+            public int compare(Vedio dt1, Vedio dt2) {
+//                SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+                try {
+                    if (dt1.getCreateTime().getTime() > dt2.getCreateTime().getTime()) {
+                        return -1;
+                    } else if (dt1.getCreateTime().getTime() < dt2.getCreateTime().getTime()) {
+                        return 1;
+                    } else {
+                        return 0;
+                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                return 0;
+            }
+        });
+        // 每种类型选取前八个
+        Map<String, List<Vedio>> result = new HashMap<>();
+        List<Vedio> zero = new ArrayList<>();
+        List<Vedio> two = new ArrayList<>();
+        List<Vedio> three = new ArrayList<>();
+        List<Vedio> four = new ArrayList<>();
+        List<Vedio> one = new ArrayList<>();
+        zero = vedioList.stream().filter(n -> n.getType() == 0).limit(8).collect(Collectors.toList());
+        one = vedioList.stream().filter(n -> n.getType() == 1).limit(8).collect(Collectors.toList());
+        two = vedioList.stream().filter(n -> n.getType() == 2).limit(8).collect(Collectors.toList());
+        three = vedioList.stream().filter(n -> n.getType() == 3).limit(8).collect(Collectors.toList());
+        four = vedioList.stream().filter(n -> n.getType() == 4).limit(8).collect(Collectors.toList());
+        result.put("zero", zero);
+        result.put("one", one);
+        result.put("two", two);
+        result.put("three", three);
+        result.put("four", four);
+        return new Result<>(Result.SUCCESS, "获取成功", "", result);
+    }
+
+    /**
+     * 根据类型获取视频
+     * @param page
+     * @param type
+     * @return
+     */
+    @GetMapping(value = "/getVideoByType")
+    public Result getVideoByType(Page<Vedio> page, String type){
+        if (page.getSize()==0 || page.getCurrent()==0 || StringUtils.isEmpty(type)){
+            return new Result<>(Result.PARAM_ERROR, "参数有空值", "");
+        }
+        EntityWrapper<Vedio> wrapper = new EntityWrapper<>();
+        wrapper.where("del_flag={0}", 0).andNew("type={0}", type);
+        List<Vedio> list = vedioMapper.selectList(wrapper);
+        List<Vedio> vedioList = vedioMapper.selectPage(page, wrapper);
+        // 按时间排序
+        vedioList.sort(new Comparator<Vedio>() {
+            @Override
+            public int compare(Vedio dt1, Vedio dt2) {
+//                SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+                try {
+                    if (dt1.getCreateTime().getTime() > dt2.getCreateTime().getTime()) {
+                        return -1;
+                    } else if (dt1.getCreateTime().getTime() < dt2.getCreateTime().getTime()) {
+                        return 1;
+                    } else {
+                        return 0;
+                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                return 0;
+            }
+        });
+        page.setTotal(vedioList.size());
+        page.setRecords(vedioList);
+        VideoPageVo videoPageVo = new VideoPageVo();
+        videoPageVo.setPage(page);
+        videoPageVo.setTotal(list.size());
+        return new Result<>(Result.SUCCESS, "获取成功", "", videoPageVo);
     }
 
 }

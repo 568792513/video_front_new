@@ -7,6 +7,7 @@ import com.baomidou.mybatisplus.MybatisConfiguration;
 import com.baomidou.mybatisplus.MybatisXMLLanguageDriver;
 import com.baomidou.mybatisplus.entity.GlobalConfiguration;
 import com.baomidou.mybatisplus.enums.DBType;
+import com.baomidou.mybatisplus.mapper.LogicSqlInjector;
 import com.baomidou.mybatisplus.plugins.PaginationInterceptor;
 import com.baomidou.mybatisplus.plugins.PerformanceInterceptor;
 import com.baomidou.mybatisplus.spring.MybatisSqlSessionFactoryBean;
@@ -32,6 +33,7 @@ import javax.sql.DataSource;
 import java.sql.SQLException;
 
 @Configuration
+@SuppressWarnings("all")
 @EnableConfigurationProperties(MybatisProperties.class)
 public class MybatisPlusConfig {
 
@@ -91,8 +93,6 @@ public class MybatisPlusConfig {
     /**
      * @Description : mybatis-plus分页插件
      * ---------------------------------
-     * @Author : Liang.Guangqing
-     * @Date : Create in 2017/9/19 13:59
      */
     @Bean
     public PaginationInterceptor paginationInterceptor() {
@@ -123,6 +123,8 @@ public class MybatisPlusConfig {
         globalConfig.setDbType(DBType.MYSQL.name());
         // ID 策略 AUTO->`0`("数据库ID自增") INPUT->`1`(用户输入ID") ID_WORKER->`2`("全局唯一ID") UUID->`3`("全局唯一ID")
         globalConfig.setIdType(2);
+        globalConfig.setLogicDeleteValue("1");
+        globalConfig.setLogicNotDeleteValue("0");
         mybatisPlus.setGlobalConfig(globalConfig);
         MybatisConfiguration mc = new MybatisConfiguration();
         mc.setDefaultScriptingLanguage(MybatisXMLLanguageDriver.class);
@@ -177,7 +179,6 @@ public class MybatisPlusConfig {
         filterRegistrationBean.addInitParameter("exclusions","*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*");
         return filterRegistrationBean;
     }
-
 
 
 }
