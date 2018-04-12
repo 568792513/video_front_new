@@ -13,6 +13,8 @@
         <option value="$PROJECT_DIR$/../vedioapp/vedio/pom.xml" />
         <option value="$PROJECT_DIR$/../vedioapp/files-service/pom.xml" />
         <option value="$PROJECT_DIR$/../vedioapp/zuul-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/../vedioapp/config-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../vedioapp/comment-service/pom.xml" />
       </list>
     </option>
   </component>

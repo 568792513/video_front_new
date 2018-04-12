@@ -1,0 +1,16 @@
+server:
+  port: 8020
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/568792513/spring-cloud-config-repo
+          username:
+          password:
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/

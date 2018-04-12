@@ -48,12 +48,6 @@ public class MybatisPlusConfig1 {
     @Autowired(required = false)
     private DatabaseIdProvider databaseIdProvider;
 
-    /**
-     * @Description : mybatis-plus SQL执行效率插件【生产环境可以关闭】
-     * ---------------------------------
-     * @Author : Liang.Guangqing
-     * @Date : Create in 2017/9/19 13:57
-     */
     @Bean
     public PerformanceInterceptor performanceInterceptor() {
         return new PerformanceInterceptor();
@@ -90,8 +84,6 @@ public class MybatisPlusConfig1 {
     /**
      * @Description : mybatis-plus分页插件
      * ---------------------------------
-     * @Author : Liang.Guangqing
-     * @Date : Create in 2017/9/19 13:59
      */
     @Bean
     public PaginationInterceptor paginationInterceptor() {

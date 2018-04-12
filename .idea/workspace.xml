@@ -1,15 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7489744c-011e-4d4b-b462-8e29737e1345" name="Default" comment="我的视频页面&#10;ftp删除文件&#10;修改视频信息">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/entity/vo/VideoPageVo.java" />
+    <list default="true" id="7489744c-011e-4d4b-b462-8e29737e1345" name="Default" comment="视频分类页面">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/.mvn/wrapper/maven-wrapper.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/config-service/.mvn/wrapper/maven-wrapper.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_0_7_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_3_6_1_201501031845_r.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_mongodb_bson_3_4_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_4_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_4_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_1_5_10_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_1_4_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_1_4_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_1_4_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_1_10_10_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_14_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/.mvn/wrapper/maven-wrapper.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/mvnw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/mvnw.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/CommentApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/MyGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/common/Result.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/common/config/LongAccuracy/WebAppConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/common/config/feign/MultipartSupportConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/common/config/mybatis/MybatisPlusConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/common/utils/CookieUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/common/utils/DateTimeUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/entity/Comment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/entity/LogicOpEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/entity/Role.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/entity/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/entity/UserRole.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/entity/Vedio.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/entity/vo/UserBaseVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/entity/vo/VideoPageVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/service/CommentService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/service/UploadFeignService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/service/UserFeignService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/service/VideoFeignService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/service/impl/CommentServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/web/CommentController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/src/main/resources/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/src/main/resources/bootstrap.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/comment-service/src/test/java/com/hui/comment_service/CommentApplicationTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/config-service/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/config-service/.mvn/wrapper/maven-wrapper.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/config-service/mvnw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/config-service/mvnw.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/config-service/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/config-service/src/main/java/com/hui/configservice/ConfigServiceApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/config-service/src/main/resources/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/config-service/src/test/java/com/hui/configservice/ConfigServiceApplicationTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/files-service/src/main/resources/bootstrap.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/bootstrap.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/MyGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/VedioApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/common/Result.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/common/config/LongAccuracy/WebAppConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/common/config/feign/MultipartSupportConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/common/config/mybatis/MybatisPlusConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/common/utils/CookieUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/common/utils/DateTimeUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/entity/LogicOpEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/entity/Role.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/entity/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/entity/UserRole.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/entity/Vedio.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/entity/vo/UserBaseVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/entity/vo/VideoPageVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/mapper/VedioMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/mapper/xml/VedioMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/service/IVedioService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/service/UploadFeignService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/service/UserFeignService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/service/impl/VedioServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/web/VedioController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/resources/bootstrap.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vedioapp/zuul-gateway/src/main/resources/bootstrap.yml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/comment_service/MyGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/comment_service/VedioApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/comment_service/common/Result.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/comment_service/common/config/LongAccuracy/WebAppConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/comment_service/common/config/feign/MultipartSupportConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/comment_service/common/config/mybatis/MybatisPlusConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/comment_service/common/utils/CookieUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/comment_service/common/utils/DateTimeUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/comment_service/entity/LogicOpEntity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/comment_service/entity/Role.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/comment_service/entity/User.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/comment_service/entity/UserRole.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/comment_service/entity/Vedio.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/comment_service/entity/vo/UserBaseVo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/comment_service/entity/vo/VideoPageVo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/comment_service/mapper/VedioMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/comment_service/mapper/xml/VedioMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/comment_service/service/IVedioService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/comment_service/service/UploadFeignService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/comment_service/service/UserFeignService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/comment_service/service/impl/VedioServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/comment_service/web/VedioController.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../vedioapp/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../vedioapp/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/.idea/misc.xml" afterPath="$PROJECT_DIR$/../vedioapp/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/.idea/modules.xml" afterPath="$PROJECT_DIR$/../vedioapp/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../vedioapp/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/common/config/mybatis/MybatisPlusConfig.java" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/common/config/mybatis/MybatisPlusConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/entity/Vedio.java" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/entity/Vedio.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/service/impl/VedioServiceImpl.java" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/service/impl/VedioServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/web/VedioController.java" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/web/VedioController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/files-service/pom.xml" afterPath="$PROJECT_DIR$/../vedioapp/files-service/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/files-service/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/../vedioapp/files-service/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/user-service/pom.xml" afterPath="$PROJECT_DIR$/../vedioapp/user-service/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/mybatis/MybatisPlusConfig1.java" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/mybatis/MybatisPlusConfig1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/pom.xml" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/test/java/com/hui/vedio_service/vedio/VideoTest.java" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/test/java/com/hui/vedio_service/vedio/VideoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/zuul-gateway/pom.xml" afterPath="$PROJECT_DIR$/../vedioapp/zuul-gateway/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vedioapp/zuul-gateway/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/../vedioapp/zuul-gateway/src/main/resources/application.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/test/java/com/hui/vedio_service/vedio/VedioApplicationTests.java" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/test/java/com/hui/vedio_service/VedioApplicationTests.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../vedioapp/vedio-service/src/test/java/com/hui/vedio_service/vedio/VideoTest.java" afterPath="$PROJECT_DIR$/../vedioapp/vedio-service/src/test/java/com/hui/vedio_service/VideoTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../vedioapp/out/" />
     <ignored path="$PROJECT_DIR$/../vedioapp/target/" />
@@ -20,6 +128,8 @@
     <ignored path="$PROJECT_DIR$/../vedioapp/file-service/target/" />
     <ignored path="$PROJECT_DIR$/../vedioapp/files-service/target/" />
     <ignored path="$PROJECT_DIR$/../vedioapp/zuul-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/../vedioapp/config-service/target/" />
+    <ignored path="$PROJECT_DIR$/../vedioapp/comment-service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,11 +142,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="VedioController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/web/VedioController.java">
+      <file leaf-file-name="Comment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/entity/Comment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="294" column="21" lean-forward="true" selection-start-line="294" selection-start-column="21" selection-end-line="294" selection-end-column="21" />
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,32 +154,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IVedioService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/service/IVedioService.java">
+      <file leaf-file-name="CommentService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/service/CommentService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="272">
+              <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VedioServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/service/impl/VedioServiceImpl.java">
+      <file leaf-file-name="VideoFeignService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/service/VideoFeignService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="35" column="23" lean-forward="false" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Vedio.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/entity/Vedio.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="204">
+              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,39 +181,64 @@
       <file leaf-file-name="BaseMapper.java" pinned="false" current-in-tab="false">
         <entry file="jar://D:/.m2/repository/com/baomidou/mybatis-plus/2.1-gamma/mybatis-plus-2.1-gamma-sources.jar!/com/baomidou/mybatisplus/mapper/BaseMapper.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="105" column="12" lean-forward="false" selection-start-line="105" selection-start-column="12" selection-end-line="105" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserFeignService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/service/UserFeignService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="12" column="58" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="12" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommentApplicationTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../vedioapp/comment-service/src/test/java/com/hui/comment_service/CommentApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="665">
-              <caret line="217" column="12" lean-forward="false" selection-start-line="217" selection-start-column="12" selection-end-line="217" selection-end-column="12" />
-              <folding />
+              <caret line="43" column="77" lean-forward="false" selection-start-line="43" selection-start-column="77" selection-end-line="43" selection-end-column="77" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/.m2/repository/com/baomidou/mybatis-plus/2.1-gamma/mybatis-plus-2.1-gamma-sources.jar!/com/baomidou/mybatisplus/service/impl/ServiceImpl.java">
+      <file leaf-file-name="CommentController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/web/CommentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3995">
-              <caret line="319" column="35" lean-forward="false" selection-start-line="319" selection-start-column="35" selection-end-line="319" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RowBounds.class" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/.m2/repository/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/session/RowBounds.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="97">
+              <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Page.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/.m2/repository/com/baomidou/mybatis-plus/2.1-gamma/mybatis-plus-2.1-gamma-sources.jar!/com/baomidou/mybatisplus/plugins/Page.java">
+        <entry file="jar://D:/.m2/repository/org/springframework/data/spring-data-commons/1.13.10.RELEASE/spring-data-commons-1.13.10.RELEASE-sources.jar!/org/springframework/data/domain/Page.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+            <state relative-caret-position="238">
+              <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageImpl.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/.m2/repository/org/springframework/data/spring-data-commons/1.13.10.RELEASE/spring-data-commons-1.13.10.RELEASE-sources.jar!/org/springframework/data/domain/PageImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="85" column="33" lean-forward="false" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
+              <folding>
+                <element signature="e#2604#2605#0" expanded="true" />
+                <element signature="e#2651#2652#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,8 +248,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -133,9 +262,54 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../vedioapp" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../vedioapp" value="master" />
+      </map>
+    </option>
     <push-targets>
-      <push-target-info target-remote="github" target-branch="master" repo="$PROJECT_DIR$/../vedioapp" source="master" />
+      <push-target-info target-remote="origin" target-branch="master" repo="$PROJECT_DIR$/../vedioapp" source="master" />
     </push-targets>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/../vedioapp" source="github" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/../vedioapp" source="github/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/../vedioapp" source="master" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/../vedioapp" source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -145,57 +319,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../vedioapp/file-service/src/main/java/com/hui/file_service/vedio/VedioApplication.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/file-service/src/main/java/com/hui/file_service/vedio/FileApplication.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/file-service/src/main/java/com/hui/file_service/vedio/FileServiceApplication.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/file-service/pom.xml" />
-        <option value="$PROJECT_DIR$/../vedioapp/file-service/src/main/java/com/hui/vedio/fileservice/FileServiceApplication.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/files-service/pom.xml" />
-        <option value="$PROJECT_DIR$/../vedioapp/zuul-gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/../vedioapp/zuul-gateway/src/main/java/com/hui/zuulgateway/ZuulGatewayApplication.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/files-service/src/main/java/com/hui/filesservice/FilesServiceApplication.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/UserServiceApplication.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/cors/OriginFilter.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/feign/FeignMultipartSupportConfig.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/feign/MultipartSupportConfig.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/UploadFeignService.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/common/config/mybatis/MybatisPlusConfig1.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/MyGenerator.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/MyGenerator.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/user-service/pom.xml" />
-        <option value="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/mapper/VedioMapper.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/entity/UserRole.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/common/config/mybatis/utils/DateTimeUtils.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/common/Result.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/security/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/common/config/feign/MultipartSupportConfig.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/VedioApplication.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/common/config/LongAccuracy/WebAppConfig.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/zuul-gateway/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/../vedioapp/vedio-service/pom.xml" />
-        <option value="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/common/utils/CookieUtils.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/service/UserFeignService.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/files-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/service/IVedioService.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/files-service/src/main/java/com/hui/filesservice/utils/FtpFileUtil.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/files-service/src/main/java/com/hui/filesservice/service/FileService.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/files-service/src/main/java/com/hui/filesservice/service/impl/FileServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/files-service/src/main/java/com/hui/filesservice/controller/FileUploadController.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/files-service/src/test/java/com/hui/filesservice/FilesServiceApplicationTests.java" />
-        <option value="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/service/UploadFeignService.java" />
         <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/entity/User.java" />
         <option value="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/entity/User.java" />
         <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/controller/UserController.java" />
         <option value="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/mapper/xml/VedioMapper.xml" />
-        <option value="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/common/config/mybatis/MybatisPlusConfig.java" />
         <option value="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/service/impl/VedioServiceImpl.java" />
         <option value="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/entity/vo/VideoPageVo.java" />
         <option value="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/entity/Vedio.java" />
         <option value="$PROJECT_DIR$/../vedioapp/vedio-service/src/test/java/com/hui/vedio_service/vedio/VideoTest.java" />
         <option value="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/web/VedioController.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/vedio-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../vedioapp/files-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../vedioapp/files-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../vedioapp/zuul-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/../vedioapp/eureka-service/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/../vedioapp/config-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../vedioapp/config-service/src/main/java/com/hui/configservice/ConfigServiceApplication.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/config-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../vedioapp/eureka-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/../vedioapp/eureka-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../vedioapp/zuul-gateway/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/../vedioapp/files-service/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/../vedioapp/zuul-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/vedio_service/vedio/CommentApplication.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/comment-service/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/../vedioapp/comment-service/src/test/java/com/hui/comment_service/VideoTest.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/comment-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/mybatis/MybatisPlusConfig1.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/VedioApplication.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedii_service/entity/Role.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/vedio-service/src/test/java/com/hui/vedio_service/VideoTest.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/service/impl/CommentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/comment-service/src/test/java/com/hui/comment_service/VedioApplicationTests.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/common/config/mybatis/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/common/utils/CookieUtils.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/comment-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/CommentApplication.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/entity/User.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/web/VedioController.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/comment-service/src/test/java/com/hui/comment_service/CommentApplicationTests.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/service/CommentService.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/entity/Comment.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/web/VedioController.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/service/VideoFeignService.java" />
+        <option value="$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/web/CommentController.java" />
       </list>
     </option>
   </component>
@@ -264,9 +438,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -308,77 +479,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="vedio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vedioapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vedioapp" type="462c0819:PsiDirectoryNode" />
-              <item name="vedio-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="vedio" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vedioapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vedioapp" type="462c0819:PsiDirectoryNode" />
-              <item name="vedio-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="vedio" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vedioapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vedioapp" type="462c0819:PsiDirectoryNode" />
-              <item name="vedio-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="vedio" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vedioapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vedioapp" type="462c0819:PsiDirectoryNode" />
-              <item name="vedio-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="vedio" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vedioapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vedioapp" type="462c0819:PsiDirectoryNode" />
-              <item name="vedio-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vedioapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vedioapp" type="462c0819:PsiDirectoryNode" />
-              <item name="vedio-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vedioapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vedioapp" type="462c0819:PsiDirectoryNode" />
-              <item name="vedio-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="vedio" type="462c0819:PsiDirectoryNode" />
+              <item name="vedio_service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -392,20 +501,20 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="SearchEverywhereHistoryKey" value="Res&#9;FILE&#9;file://H:/vedioapp/user-service/src/main/java/com/hui/user_service/common/Result.java&#10;fac&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.social.FacebookAutoConfiguration" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.13479623" />
     <property name="project.structure.side.proportion" value="0.4365942" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VBlog-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vedioapp/comment-service/src/main/resources/bootstrap.yml" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\vedioapp\eureka-service\src\main\resources" />
+      <recent name="H:\vedioapp\zuul-gateway\src\main\resources" />
+      <recent name="H:\vedioapp\files-service\src\main\resources" />
+      <recent name="H:\vedioapp\user-service\src\main\resources" />
       <recent name="H:\vedioapp\vedio-service\src\main\java\com\hui\vedio_service\vedio\common\config\mybatis" />
-      <recent name="H:\vedioapp\vedio-service\src\main\java\com\hui\vedio_service\vedio\entity" />
-      <recent name="H:\vedioapp\src\main\common" />
-      <recent name="H:\vedioapp\vedio-service\src\main\java\com\hui\vedio_service\vedio" />
-      <recent name="H:\vedioapp\vedio-service\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hui.vedio_service.vedio.common.utils" />
@@ -431,30 +540,85 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.VedioApplication">
+  <component name="RunManager" selected="Spring Boot.CommentApplication">
+    <configuration name="CommentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hui.comment_service.CommentApplication" />
+      <module name="comment-service" />
+      <envs />
+    </configuration>
+    <configuration name="CommentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.hui.comment_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hui.comment_service.CommentApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="comment-service" />
+      <envs />
+    </configuration>
+    <configuration name="CommentApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.hui.comment_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="comment-service" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.hui.comment_service" />
+      <option name="MAIN_CLASS_NAME" value="com.hui.comment_service.CommentApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="CommentApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.hui.comment_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="comment-service" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.hui.comment_service" />
+      <option name="MAIN_CLASS_NAME" value="com.hui.comment_service.CommentApplicationTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hui.configservice.ConfigServiceApplication" />
+      <module name="config-service" />
+      <envs />
+    </configuration>
     <configuration name="EurekaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hui.eurekaservice.EurekaServiceApplication" />
       <module name="eureka-service" />
-      <envs />
-    </configuration>
-    <configuration name="FileServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.hui.vedio.fileservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.hui.vedio.fileservice.FileServiceApplication" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../vedioapp" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="file-service" />
       <envs />
     </configuration>
     <configuration name="FilesServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -463,86 +627,40 @@
       <module name="files-service" />
       <envs />
     </configuration>
-    <configuration name="FilesServiceApplicationTests.deleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.hui.filesservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="files-service" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.hui.filesservice" />
-      <option name="MAIN_CLASS_NAME" value="com.hui.filesservice.FilesServiceApplicationTests" />
-      <option name="METHOD_NAME" value="deleteTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="MyGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.hui.vedio_service.vedio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.hui.vedio_service.vedio.MyGenerator" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../vedioapp" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="vedio-service" />
-      <envs />
-    </configuration>
     <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hui.user_service.UserServiceApplication" />
       <module name="user-service" />
       <envs />
     </configuration>
-    <configuration name="VedioApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hui.vedio_service.vedio.VedioApplication" />
-      <module name="vedio-service" />
-      <envs />
-    </configuration>
-    <configuration name="VideoTest.selectPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VedioApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.hui.vedio_service.vedio.*" />
+          <option name="PATTERN" value="com.hui.comment_service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hui.comment_service.VedioApplication" />
       <module name="vedio-service" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.hui.vedio_service.vedio" />
-      <option name="MAIN_CLASS_NAME" value="com.hui.vedio_service.vedio.VideoTest" />
-      <option name="METHOD_NAME" value="selectPage" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
       <envs />
-      <patterns />
+    </configuration>
+    <configuration name="VedioApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.hui.vedio_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hui.vedio_service.VedioApplication" />
+      <module name="vedio-service" />
+      <envs />
+    </configuration>
+    <configuration name="VedioApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hui.vedio_service.VedioApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="vedio-service" />
+      <envs />
     </configuration>
     <configuration name="VideoTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -656,30 +774,35 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="10">
+    <list size="12">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.UserServiceApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.EurekaServiceApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.FilesServiceApplication" />
       <item index="3" class="java.lang.String" itemvalue="Spring Boot.ZuulGatewayApplication" />
       <item index="4" class="java.lang.String" itemvalue="Spring Boot.VedioApplication" />
-      <item index="5" class="java.lang.String" itemvalue="Application.FileServiceApplication" />
-      <item index="6" class="java.lang.String" itemvalue="Application.MyGenerator" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.VideoTest.selectPage" />
-      <item index="8" class="java.lang.String" itemvalue="JUnit.FilesServiceApplicationTests.deleteTest" />
-      <item index="9" class="java.lang.String" itemvalue="JUnit.VideoTest.test" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.ConfigServiceApplication" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.CommentApplication" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.VideoTest.test" />
+      <item index="8" class="java.lang.String" itemvalue="Spring Boot.VedioApplication (1)" />
+      <item index="9" class="java.lang.String" itemvalue="Spring Boot.VedioApplication (2)" />
+      <item index="10" class="java.lang.String" itemvalue="JUnit.CommentApplicationTests.contextLoads" />
+      <item index="11" class="java.lang.String" itemvalue="JUnit.CommentApplicationTests.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.VideoTest.test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FilesServiceApplicationTests.deleteTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.VideoTest.selectPage" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MyGenerator" />
-        <item index="4" class="java.lang.String" itemvalue="Application.FileServiceApplication" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CommentApplicationTests.test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CommentApplicationTests.contextLoads" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.VedioApplication (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.VedioApplication (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Spring Boot.CommentApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SpringBeansView">
+    <option name="showInfrastructureBeans" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -711,7 +834,16 @@
       <workItem from="1522896699635" duration="8981000" />
       <workItem from="1522923212943" duration="1504000" />
       <workItem from="1522930122792" duration="5082000" />
-      <workItem from="1522980385467" duration="5058000" />
+      <workItem from="1522980385467" duration="6935000" />
+      <workItem from="1523095550776" duration="5705000" />
+      <workItem from="1523259870176" duration="427000" />
+      <workItem from="1523261181610" duration="2107000" />
+      <workItem from="1523341767753" duration="4846000" />
+      <workItem from="1523355155290" duration="3011000" />
+      <workItem from="1523414852616" duration="4938000" />
+      <workItem from="1523435187036" duration="1170000" />
+      <workItem from="1523444528495" duration="3345000" />
+      <workItem from="1523497629365" duration="18584000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1521858234868</created>
@@ -776,43 +908,50 @@
       <option name="project" value="LOCAL" />
       <updated>1522851236577</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="视频分类页面">
+      <created>1523004731117</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1523004731118</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserServiceApplicationTests_getMyInfo - 2018.03.28 at 14h 16m 19s.xml">
-      <configuration name="UserServiceApplicationTests.getMyInfo" configurationId="JUnit" />
+    <history-entry file="CommentApplicationTests_test - 2018.04.12 at 20h 17m 53s.xml">
+      <configuration name="CommentApplicationTests.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VideoTest_selectPage - 2018.04.03 at 21h 05m 03s.xml">
-      <configuration name="VideoTest.selectPage" configurationId="JUnit" />
+    <history-entry file="CommentApplicationTests_test - 2018.04.12 at 20h 24m 46s.xml">
+      <configuration name="CommentApplicationTests.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VideoTest_selectPage - 2018.04.03 at 21h 05m 50s.xml">
-      <configuration name="VideoTest.selectPage" configurationId="JUnit" />
+    <history-entry file="CommentApplicationTests_test - 2018.04.12 at 20h 26m 24s.xml">
+      <configuration name="CommentApplicationTests.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VideoTest_selectPage - 2018.04.03 at 21h 21m 24s.xml">
-      <configuration name="VideoTest.selectPage" configurationId="JUnit" />
+    <history-entry file="CommentApplicationTests_test - 2018.04.12 at 20h 28m 49s.xml">
+      <configuration name="CommentApplicationTests.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VideoTest_selectPage - 2018.04.03 at 21h 21m 41s.xml">
-      <configuration name="VideoTest.selectPage" configurationId="JUnit" />
+    <history-entry file="CommentApplicationTests_test - 2018.04.12 at 20h 31m 00s.xml">
+      <configuration name="CommentApplicationTests.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VideoTest_test - 2018.04.05 at 22h 39m 55s.xml">
-      <configuration name="VideoTest.test" configurationId="JUnit" />
+    <history-entry file="CommentApplicationTests_test - 2018.04.12 at 20h 33m 32s.xml">
+      <configuration name="CommentApplicationTests.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VideoTest_test - 2018.04.05 at 22h 40m 30s.xml">
-      <configuration name="VideoTest.test" configurationId="JUnit" />
+    <history-entry file="CommentApplicationTests_test - 2018.04.12 at 20h 36m 04s.xml">
+      <configuration name="CommentApplicationTests.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VideoTest_test - 2018.04.05 at 22h 41m 51s.xml">
-      <configuration name="VideoTest.test" configurationId="JUnit" />
+    <history-entry file="CommentApplicationTests_test - 2018.04.12 at 20h 44m 59s.xml">
+      <configuration name="CommentApplicationTests.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VideoTest_test - 2018.04.05 at 22h 42m 37s.xml">
-      <configuration name="VideoTest.test" configurationId="JUnit" />
+    <history-entry file="CommentApplicationTests_test - 2018.04.12 at 20h 46m 54s.xml">
+      <configuration name="CommentApplicationTests.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VideoTest_test - 2018.04.05 at 22h 53m 57s.xml">
-      <configuration name="VideoTest.test" configurationId="JUnit" />
+    <history-entry file="CommentApplicationTests_test - 2018.04.12 at 20h 47m 31s.xml">
+      <configuration name="CommentApplicationTests.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182902000" />
+    <option name="totallyTimeSpent" value="228912000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -836,11 +975,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43634385" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17697228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23827292" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -848,11 +988,36 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -864,195 +1029,24 @@
     <MESSAGE value="上传图片到ftp服务器&#10;feign上传问题解决&#10;zuil feign集成&#10;fileservice模块完成部分" />
     <MESSAGE value="zuul整合&#10;上传视频功能完成" />
     <MESSAGE value="我的视频页面&#10;ftp删除文件&#10;修改视频信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="我的视频页面&#10;ftp删除文件&#10;修改视频信息" />
+    <MESSAGE value="视频分类页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="视频分类页面" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="70" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../vedioapp/comment-service/src/test/java/com/hui/comment_service/CommentApplicationTests.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="83" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/mvnw.cmd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/UserServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="28" column="3" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="41" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/common/config/LongAccuracy/WebAppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/LongAccuracy/WebAppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="79" column="20" lean-forward="true" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/zuul-gateway/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-527">
-          <caret line="69" column="8" lean-forward="true" selection-start-line="69" selection-start-column="8" selection-end-line="72" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/UploadFeignService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/common/utils/CookieUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/files-service/src/main/java/com/hui/filesservice/utils/123.txt" />
-    <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/service/UserFeignService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/VedioApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="28" column="88" lean-forward="true" selection-start-line="28" selection-start-column="88" selection-end-line="28" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/test/java/com/hui/vedio_service/vedio/VedioApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="835">
-          <caret line="128" column="19" lean-forward="false" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/.m2/repository/commons-net/commons-net/3.3/commons-net-3.3.jar!/org/apache/commons/net/ftp/FTP.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="423" column="28" lean-forward="false" selection-start-line="423" selection-start-column="28" selection-end-line="423" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/.m2/repository/commons-net/commons-net/3.3/commons-net-3.3.jar!/org/apache/commons/net/ftp/FTPClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="847" column="52" lean-forward="true" selection-start-line="847" selection-start-column="52" selection-end-line="847" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/files-service/src/main/java/com/hui/filesservice/FilesServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/test/java/com/hui/vedio/userservice/UserServiceApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/files-service/src/main/java/com/hui/filesservice/service/FileService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/files-service/src/main/java/com/hui/filesservice/service/impl/FileServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="31" column="82" lean-forward="true" selection-start-line="31" selection-start-column="82" selection-end-line="31" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/files-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="64" column="27" lean-forward="true" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/files-service/src/test/java/com/hui/filesservice/FilesServiceApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" column="49" lean-forward="false" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#616#617#0" expanded="false" />
-            <element signature="e#663#664#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/service/UploadFeignService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="28" column="69" lean-forward="false" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/files-service/src/main/java/com/hui/filesservice/controller/FileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="92" column="40" lean-forward="false" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/mapper/xml/VedioMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../vedioapp/files-service/src/main/java/com/hui/filesservice/utils/FtpFileUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1887">
@@ -1060,206 +1054,392 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="140" column="38" lean-forward="false" selection-start-line="140" selection-start-column="38" selection-end-line="140" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/utils/CookieUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.1/mybatis-spring-boot-autoconfigure-1.3.1.jar!/org/mybatis/spring/boot/autoconfigure/MybatisProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-867">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/common/config/mybatis/MybatisPlusConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="128" column="61" lean-forward="true" selection-start-line="128" selection-start-column="61" selection-end-line="128" selection-end-column="61" />
-          <folding>
-            <element signature="e#1745#1769#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/.m2/repository/com/baomidou/mybatis-plus/2.1-gamma/mybatis-plus-2.1-gamma-sources.jar!/com/baomidou/mybatisplus/plugins/pagination/Pagination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/entity/vo/VideoPageVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/entity/vo/UserBaseVo.java">
+    <entry file="file://$PROJECT_DIR$/../vedioapp/files-service/src/main/java/com/hui/filesservice/service/impl/FileServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/comment_service/web/VedioController.java" />
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2210">
+          <caret line="130" column="28" lean-forward="false" selection-start-line="130" selection-start-column="28" selection-end-line="130" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/entity/User.java">
+    <entry file="file://$PROJECT_DIR$/../vedioapp/comment-service/src/test/java/com/hui/comment_service/VideoTest.java" />
+    <entry file="file://$PROJECT_DIR$/../vedioapp/comment-service/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.m2/repository/com/baomidou/mybatis-plus/2.1-gamma/mybatis-plus-2.1-gamma-sources.jar!/com/baomidou/mybatisplus/activerecord/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/comment_service/VedioApplication.java" />
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="141" column="16" lean-forward="false" selection-start-line="141" selection-start-column="16" selection-end-line="141" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/service/UploadFeignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/common/Result.java">
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/MyGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="85">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/jdk/src.zip!/java/util/Map.java">
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/main/java/com/hui/user_service/common/config/mybatis/MybatisPlusConfig1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
-          <caret line="128" column="17" lean-forward="false" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/test/java/com/hui/vedio_service/vedio/VideoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="68" column="47" lean-forward="false" selection-start-line="68" selection-start-column="47" selection-end-line="68" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/entity/LogicOpEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        <state relative-caret-position="323">
+          <caret line="47" column="32" lean-forward="false" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
           <folding>
-            <element signature="e#882#883#0" expanded="false" />
-            <element signature="e#915#916#0" expanded="false" />
+            <element signature="e#2251#2252#0" expanded="false" />
+            <element signature="e#2302#2303#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/entity/Vedio.java">
+    <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/entity/Role.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/.m2/repository/com/baomidou/mybatis-plus/2.1-gamma/mybatis-plus-2.1-gamma-sources.jar!/com/baomidou/mybatisplus/service/impl/ServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/entity/Role.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3995">
-          <caret line="319" column="35" lean-forward="false" selection-start-line="319" selection-start-column="35" selection-end-line="319" selection-end-column="35" />
+        <state relative-caret-position="102">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/.m2/repository/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/session/RowBounds.class">
+    <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/MyGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="85">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/.m2/repository/com/baomidou/mybatis-plus/2.1-gamma/mybatis-plus-2.1-gamma-sources.jar!/com/baomidou/mybatisplus/plugins/Page.java">
+    <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/test/java/com/hui/vedio_service/VedioApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        <state relative-caret-position="102">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/comment-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/zuul-gateway/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/service/impl/CommentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/test/java/com/hui/vedio_service/VideoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/user-service/src/test/java/com/hui/vedio/userservice/UserServiceApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.m2/repository/org/springframework/data/spring-data-mongodb/1.10.10.RELEASE/spring-data-mongodb-1.10.10.RELEASE.jar!/org/springframework/data/mongodb/repository/MongoRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/common/config/LongAccuracy/WebAppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/common/config/mybatis/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="127" column="50" lean-forward="false" selection-start-line="127" selection-start-column="50" selection-end-line="127" selection-end-column="50" />
+          <folding>
+            <marker date="1523512515747" expanded="false" signature="1813:1837" ph="/all/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/entity/LogicOpEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/comment-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-552">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.m2/repository/org/springframework/data/spring-data-mongodb/1.10.10.RELEASE/spring-data-mongodb-1.10.10.RELEASE.jar!/org/springframework/data/mongodb/core/MongoTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="437" column="19" lean-forward="false" selection-start-line="437" selection-start-column="19" selection-end-line="437" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.m2/repository/org/springframework/data/spring-data-mongodb/1.10.10.RELEASE/spring-data-mongodb-1.10.10.RELEASE.jar!/org/springframework/data/mongodb/core/MongoOperations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="128" column="12" lean-forward="false" selection-start-line="128" selection-start-column="12" selection-end-line="128" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.m2/repository/org/springframework/data/spring-data-mongodb/1.10.10.RELEASE/spring-data-mongodb-1.10.10.RELEASE.jar!/org/springframework/data/mongodb/repository/support/SimpleMongoRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="94" column="39" lean-forward="true" selection-start-line="94" selection-start-column="39" selection-end-line="94" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.m2/repository/org/springframework/data/spring-data-commons/1.13.10.RELEASE/spring-data-commons-1.13.10.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/common/utils/CookieUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.m2/repository/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/src.zip!/java/awt/print/Pageable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="37" column="17" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.m2/repository/org/springframework/data/spring-data-commons/1.13.10.RELEASE/spring-data-commons-1.13.10.RELEASE.jar!/org/springframework/data/domain/PageRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.m2/repository/org/springframework/data/spring-data-commons/1.13.10.RELEASE/spring-data-commons-1.13.10.RELEASE.jar!/org/springframework/data/domain/Slice.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.m2/repository/org/springframework/data/spring-data-commons/1.13.10.RELEASE/spring-data-commons-1.13.10.RELEASE.jar!/org/springframework/data/domain/Page.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.m2/repository/org/springframework/data/spring-data-commons/1.13.10.RELEASE/spring-data-commons-1.13.10.RELEASE.jar!/org/springframework/data/domain/PageImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.m2/repository/org/springframework/data/spring-data-commons/1.13.10.RELEASE/spring-data-commons-1.13.10.RELEASE-sources.jar!/org/springframework/data/domain/Slice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.m2/repository/org/springframework/data/spring-data-commons/1.13.10.RELEASE/spring-data-commons-1.13.10.RELEASE-sources.jar!/org/springframework/data/domain/PageImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="85" column="33" lean-forward="false" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
+          <folding>
+            <element signature="e#2604#2605#0" expanded="true" />
+            <element signature="e#2651#2652#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.m2/repository/org/springframework/data/spring-data-commons/1.13.10.RELEASE/spring-data-commons-1.13.10.RELEASE-sources.jar!/org/springframework/data/domain/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/entity/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/comment-service/src/test/java/com/hui/comment_service/CommentApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="43" column="77" lean-forward="false" selection-start-line="43" selection-start-column="77" selection-end-line="43" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/CommentApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/service/UserFeignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="58" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="12" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/.m2/repository/com/baomidou/mybatis-plus/2.1-gamma/mybatis-plus-2.1-gamma-sources.jar!/com/baomidou/mybatisplus/mapper/BaseMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="217" column="12" lean-forward="false" selection-start-line="217" selection-start-column="12" selection-end-line="217" selection-end-column="12" />
+        <state relative-caret-position="168">
+          <caret line="105" column="12" lean-forward="false" selection-start-line="105" selection-start-column="12" selection-end-line="105" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/.m2/repository/com/baomidou/mybatis-plus/2.1-gamma/mybatis-plus-2.1-gamma-sources.jar!/com/baomidou/mybatisplus/MybatisAbstractSQL.java">
+    <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/web/VedioController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="53" column="13" lean-forward="false" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        <state relative-caret-position="267">
+          <caret line="322" column="9" lean-forward="true" selection-start-line="322" selection-start-column="9" selection-end-line="322" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/.m2/repository/com/baomidou/mybatis-plus/2.1-gamma/mybatis-plus-2.1-gamma-sources.jar!/com/baomidou/mybatisplus/mapper/Wrapper.java">
+    <entry file="file://$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/service/VideoFeignService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="227" column="38" lean-forward="true" selection-start-line="227" selection-start-column="38" selection-end-line="227" selection-end-column="38" />
+        <state relative-caret-position="204">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding>
-            <element signature="e#5906#5907#0" expanded="false" />
-            <element signature="e#5958#5959#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/service/impl/VedioServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/web/CommentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="35" column="23" lean-forward="false" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        <state relative-caret-position="97">
+          <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/service/IVedioService.java">
+    <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/VedioApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        <state relative-caret-position="272">
+          <caret line="28" column="44" lean-forward="false" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../vedioapp/vedio-service/src/main/java/com/hui/vedio_service/vedio/web/VedioController.java">
+    <entry file="file://$PROJECT_DIR$/../vedioapp/comment-service/src/main/java/com/hui/comment_service/service/CommentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="294" column="21" lean-forward="true" selection-start-line="294" selection-start-column="21" selection-end-line="294" selection-end-column="21" />
+        <state relative-caret-position="272">
+          <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1320,7 +1500,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|file-service</last-edited>
+          <last-edited>Spring|comment-service</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

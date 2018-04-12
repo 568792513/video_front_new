@@ -1,4 +1,4 @@
-package com.hui.vedio_service.vedio;
+package com.hui.vedio_service;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../vedioapp/comment-service/comment-service.iml" filepath="$PROJECT_DIR$/../vedioapp/comment-service/comment-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vedioapp/config-service/config-service.iml" filepath="$PROJECT_DIR$/../vedioapp/config-service/config-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/../vedioapp/eureka-service/eureka-service.iml" filepath="$PROJECT_DIR$/../vedioapp/eureka-service/eureka-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/../vedioapp/files-service/files-service.iml" filepath="$PROJECT_DIR$/../vedioapp/files-service/files-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/../vedioapp/user-service/user-service.iml" filepath="$PROJECT_DIR$/../vedioapp/user-service/user-service.iml" />

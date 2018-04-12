@@ -1,10 +1,10 @@
-package com.hui.vedio_service.vedio;
+package com.hui.vedio_service;
 
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.plugins.Page;
-import com.hui.vedio_service.vedio.entity.Vedio;
-import com.hui.vedio_service.vedio.mapper.VedioMapper;
-import com.hui.vedio_service.vedio.service.IVedioService;
+import com.hui.vedio_service.entity.Vedio;
+import com.hui.vedio_service.service.IVedioService;
+import com.hui.vedio_service.mapper.VedioMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

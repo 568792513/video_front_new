@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: file-service
+  cloud:
+    config:
+      uri: http://localhost:8020/
+      profile:
+      label: master
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
