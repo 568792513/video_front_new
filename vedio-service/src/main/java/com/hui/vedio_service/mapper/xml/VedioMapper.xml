@@ -22,6 +22,7 @@
 		<result column="remark" property="remark" />
 		<result column="video_img_in_ftp" property="videoImgInFtp" />
 		<result column="video_file_in_ftp" property="videoFileInFtp" />
+		<result column="format" property="format" />
 	</resultMap>
 
 </mapper>

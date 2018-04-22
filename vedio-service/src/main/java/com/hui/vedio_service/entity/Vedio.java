@@ -43,6 +43,15 @@ public class Vedio extends LogicOpEntity<Vedio> {
 	private String videoImgInFtp;
 	@TableField("video_file_in_ftp")
 	private String videoFileInFtp;
+	private String format;
+
+	public String getFormat() {
+		return format;
+	}
+
+	public void setFormat(String format) {
+		this.format = format;
+	}
 
 	public Long getId() {
 		return id;

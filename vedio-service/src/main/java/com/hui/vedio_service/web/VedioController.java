@@ -80,6 +80,7 @@ public class VedioController {
                 vedio.setIntroduction(videoIntroduction);
                 vedio.setSize((double) videoFile.getSize());
                 vedio.setUserId(user.getId());
+                vedio.setFormat("video/mp4");
 
                 // 先上传视频
                 List<Vedio> userVideoList = vedioService.getAllVideoByUserId(user.getId());
@@ -222,6 +223,9 @@ public class VedioController {
         if (vedioInDb == null){
             return new Result<>(Result.PARAM_ERROR, "无此视频", "");
         }
+        // 添加一次播放量
+        vedioInDb.setPlayAmount(vedioInDb.getPlayAmount()+1);
+        vedioMapper.updateById(vedioInDb);
         return new Result<>(Result.SUCCESS, "获取成功", "", vedioInDb);
     }
 
@@ -230,8 +234,18 @@ public class VedioController {
         EntityWrapper<Vedio> wrapper = new EntityWrapper<>();
         wrapper.where("del_flag={0}", 0);
         List<Vedio> vedioList = vedioMapper.selectList(wrapper);
+        List<Vedio> timeList = vedioList;
+
+        // 每种类型选取前八个
+        Map<String, List<Vedio>> result = new HashMap<>();
+        List<Vedio> zero = new ArrayList<>();
+        List<Vedio> two = new ArrayList<>();
+        List<Vedio> three = new ArrayList<>();
+        List<Vedio> four = new ArrayList<>();
+        List<Vedio> one = new ArrayList<>();
+
         // 按时间排序
-        vedioList.sort(new Comparator<Vedio>() {
+        timeList.sort(new Comparator<Vedio>() {
             @Override
             public int compare(Vedio dt1, Vedio dt2) {
 //                SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
@@ -249,23 +263,47 @@ public class VedioController {
                 return 0;
             }
         });
-        // 每种类型选取前八个
-        Map<String, List<Vedio>> result = new HashMap<>();
-        List<Vedio> zero = new ArrayList<>();
-        List<Vedio> two = new ArrayList<>();
-        List<Vedio> three = new ArrayList<>();
-        List<Vedio> four = new ArrayList<>();
-        List<Vedio> one = new ArrayList<>();
-        zero = vedioList.stream().filter(n -> n.getType() == 0).limit(8).collect(Collectors.toList());
-        one = vedioList.stream().filter(n -> n.getType() == 1).limit(8).collect(Collectors.toList());
-        two = vedioList.stream().filter(n -> n.getType() == 2).limit(8).collect(Collectors.toList());
-        three = vedioList.stream().filter(n -> n.getType() == 3).limit(8).collect(Collectors.toList());
-        four = vedioList.stream().filter(n -> n.getType() == 4).limit(8).collect(Collectors.toList());
+        zero = timeList.stream().filter(n -> n.getType() == 0).limit(8).collect(Collectors.toList());
+        one = timeList.stream().filter(n -> n.getType() == 1).limit(8).collect(Collectors.toList());
+        two = timeList.stream().filter(n -> n.getType() == 2).limit(8).collect(Collectors.toList());
+        three = timeList.stream().filter(n -> n.getType() == 3).limit(8).collect(Collectors.toList());
+        four = timeList.stream().filter(n -> n.getType() == 4).limit(8).collect(Collectors.toList());
         result.put("zero", zero);
         result.put("one", one);
         result.put("two", two);
         result.put("three", three);
         result.put("four", four);
+        return new Result<>(Result.SUCCESS, "获取成功", "", result);
+    }
+
+    @GetMapping(value = "/getHomeMarquee")
+    public Result getHomeMarquee(){
+        EntityWrapper<Vedio> wrapper = new EntityWrapper<>();
+        wrapper.where("del_flag={0}", 0);
+        List<Vedio> vedioList = vedioMapper.selectList(wrapper);
+        List<Vedio> playList = vedioList;
+        Map<String, List<Vedio>> result = new HashMap<>();
+        List<Vedio> marquee = new ArrayList<>();
+        // 按播放量排序
+        playList.sort(new Comparator<Vedio>() {
+            @Override
+            public int compare(Vedio dt1, Vedio dt2) {
+                try {
+                    if (dt1.getPlayAmount() > dt2.getPlayAmount()) {
+                        return -1;
+                    } else if (dt1.getPlayAmount() < dt2.getPlayAmount()) {
+                        return 1;
+                    } else {
+                        return 0;
+                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                return 0;
+            }
+        });
+        marquee = playList.stream().limit(4).collect(Collectors.toList());
+        result.put("marquee", marquee);
         return new Result<>(Result.SUCCESS, "获取成功", "", result);
     }
 
