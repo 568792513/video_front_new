@@ -1,7 +1,9 @@
 package com.hui.vedio.userservice;
 
 import com.hui.user_service.UserServiceApplication;
+import com.hui.user_service.entity.Role;
 import com.hui.user_service.entity.User;
+import com.hui.user_service.mapper.RoleMapper;
 import com.hui.user_service.service.UserService;
 import javafx.application.Application;
 import org.junit.Test;
@@ -18,6 +20,9 @@ public class UserServiceApplicationTests {
 	@Resource
 	private UserService userService;
 
+	@Resource
+	private RoleMapper roleMapper;
+
 	@Test
 	public void contextLoads() {
 	}
@@ -28,4 +33,10 @@ public class UserServiceApplicationTests {
 		System.out.println(user);
 	}
 
+	@Test
+	public void saveRole() {
+		Role role = new Role();
+		role.setName("ROLE_ADMIN");
+		roleMapper.insert(role);
+	}
 }

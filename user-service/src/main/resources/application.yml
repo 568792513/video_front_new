@@ -1,82 +1,76 @@
-#server:
-#  port: 8081
-#
-#eureka:
+server:
+  port: 8081
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
+
+# ��������Դ
+spring:
+  application:
+    name: user-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/hui
+    username: root
+    password: 111111
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    #这里是配置druid连接池，以下都是druid的配置信息
+    filters: stat,wall,log4j
+    maxActive: 20
+    initialSize: 1
+    maxWait: 60000
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxOpenPreparedStatements: 20
+    connection-properties: druid.stat.merggSql=ture;druid.stat.slowSqlMillis=5000
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+    pool:
+      max-idle: 100
+      min-idle: 1
+      max-active: 1000
+      max-wait: -1
+# mybatis
+mybatis:
+  mapper-locations: classpath*:/mapper/**Mapper.xml
+  typeAliasesPackage: com.hui.user_service.entity
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+
+logging:
+  level:
+    com:
+      hui:
+        user_service:
+          mapper: debug
+
+#feign 超时限制
+feign:
+  hystrix:
+    enabled: false
 #  client:
-#    service-url:
-#      defaultZone: http://localhost:8000/eureka/
-#
-## ��������Դ
-#spring:
-#  application:
-#    name: user-service
-#  datasource:
-#    url: jdbc:mysql://120.79.143.237:3306/hui
-#    username: root
-#    password: 123456
-#    driver-class-name: com.mysql.jdbc.Driver
-#    type: com.alibaba.druid.pool.DruidDataSource
-#    #这里是配置druid连接池，以下都是druid的配置信息
-#    filters: stat,wall,log4j
-#    maxActive: 20
-#    initialSize: 1
-#    maxWait: 60000
-#    minIdle: 1
-#    timeBetweenEvictionRunsMillis: 60000
-#    minEvictableIdleTimeMillis: 300000
-#    validationQuery: select 'x'
-#    testWhileIdle: true
-#    testOnBorrow: false
-#    testOnReturn: false
-#    poolPreparedStatements: true
-#    maxOpenPreparedStatements: 20
-#    connection-properties: druid.stat.merggSql=ture;druid.stat.slowSqlMillis=5000
-#  redis:
-#    host: 120.79.143.237
-#    port: 6379
-#    password:
-#    pool:
-#      max-idle: 100
-#      min-idle: 1
-#      max-active: 1000
-#      max-wait: -1
-## mybatis
-#mybatis:
-#  mapper-locations: classpath*:/mapper/**Mapper.xml
-#  typeAliasesPackage: com.hui.user_service.entity
-#  configuration:
-#    map-underscore-to-camel-case: true
-#    cache-enabled: false
-#
-#logging:
-#  level:
-#    com:
-#      hui:
-#        user_service:
-#          mapper: debug
-#
-##修改文件大小限制
-#multipart:
-#  enabled: true
-#  max-file-size: 50mb
-#  max-request-size: 50mb
-#
-##feign 超时限制
-#feign:
-#  hystrix:
-#    enabled: false
-##  client:
-##    config:
-##      feignName:
-##          connectTimeout: 30000
-##          readTimeout: 30000
-##  httpclient:
-##    max-connections: 30000
-##    connection-timer-repeat: 30000
-##    time-to-live: 10000
-##    connection-timeout: 30000
-##请求处理的超时时间
-#ribbon:
-#  ReadTimeout: 12000
-#  ConnectTimeout: 30000
-#FtpHeadImgPath: 120.79.143.237/head_img/
+#    config:
+#      feignName:
+#          connectTimeout: 30000
+#          readTimeout: 30000
+#  httpclient:
+#    max-connections: 30000
+#    connection-timer-repeat: 30000
+#    time-to-live: 10000
+#    connection-timeout: 30000
+#请求处理的超时时间
+ribbon:
+  ReadTimeout: 12000
+  ConnectTimeout: 30000
+FtpHeadImgPath: 120.79.143.237/head_img/

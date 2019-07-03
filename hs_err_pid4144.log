@@ -1,0 +1,156 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 1048576 bytes for AllocateHeap
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (memory/allocation.inline.hpp:61), pid=4144, tid=0x00000000000006d4
+#
+# JRE version:  (8.0_144-b01) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.144-b01 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000002aa7000):  JavaThread "Unknown thread" [_thread_in_vm, id=1748, stack(0x00000000028f0000,0x00000000029f0000)]
+
+Stack: [0x00000000028f0000,0x00000000029f0000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000002aa7000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=1748, stack(0x00000000028f0000,0x00000000029f0000)]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap:
+ PSYoungGen      total 38400K, used 665K [0x00000000d5f00000, 0x00000000d8980000, 0x0000000100000000)
+  eden space 33280K, 2% used [0x00000000d5f00000,0x00000000d5fa6670,0x00000000d7f80000)
+  from space 5120K, 0% used [0x00000000d8480000,0x00000000d8480000,0x00000000d8980000)
+  to   space 5120K, 0% used [0x00000000d7f80000,0x00000000d7f80000,0x00000000d8480000)
+ ParOldGen       total 87552K, used 0K [0x0000000081c00000, 0x0000000087180000, 0x00000000d5f00000)
+  object space 87552K, 0% used [0x0000000081c00000,0x0000000081c00000,0x0000000087180000)
+ Metaspace       used 770K, capacity 4480K, committed 4480K, reserved 1056768K
+  class space    used 75K, capacity 384K, committed 384K, reserved 1048576K
+
+Card table byte_map: [0x0000000012060000,0x0000000012460000] byte_map_base: 0x0000000011c52000
+
+Marking Bits: (ParMarkBitMap*) 0x0000000056ced850
+ Begin Bits: [0x0000000012f10000, 0x0000000014ea0000)
+ End Bits:   [0x0000000014ea0000, 0x0000000016e30000)
+
+Polling page: 0x0000000000c20000
+
+CodeCache: size=245760Kb used=328Kb max_used=328Kb free=245431Kb
+ bounds [0x0000000002ca0000, 0x0000000002f10000, 0x0000000011ca0000]
+ total_blobs=58 nmethods=0 adapters=38
+ compilation: enabled
+
+Compilation events (0 events):
+No events
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.054 loading class java/lang/Short
+Event: 0.054 loading class java/lang/Short done
+Event: 0.054 loading class java/lang/Integer
+Event: 0.054 loading class java/lang/Integer done
+Event: 0.054 loading class java/lang/Long
+Event: 0.055 loading class java/lang/Long done
+Event: 0.056 loading class java/lang/NullPointerException
+Event: 0.056 loading class java/lang/NullPointerException done
+Event: 0.056 loading class java/lang/ArithmeticException
+Event: 0.056 loading class java/lang/ArithmeticException done
+
+
+Dynamic libraries:
+0x00007ff705f40000 - 0x00007ff705f77000 	E:\jdk\bin\java.exe
+0x00007ff9e0a00000 - 0x00007ff9e0be1000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ff9ddea0000 - 0x00007ff9ddf52000 	C:\WINDOWS\System32\KERNEL32.DLL
+0x00007ff9dd170000 - 0x00007ff9dd3e3000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x00007ff9de4e0000 - 0x00007ff9de581000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007ff9e0930000 - 0x00007ff9e09ce000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007ff9ddf60000 - 0x00007ff9ddfbb000 	C:\WINDOWS\System32\sechost.dll
+0x00007ff9de150000 - 0x00007ff9de274000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007ff9ddfc0000 - 0x00007ff9de150000 	C:\WINDOWS\System32\USER32.dll
+0x00007ff9dcdd0000 - 0x00007ff9dcdf0000 	C:\WINDOWS\System32\win32u.dll
+0x00007ff9e0810000 - 0x00007ff9e0838000 	C:\WINDOWS\System32\GDI32.dll
+0x00007ff9dd3f0000 - 0x00007ff9dd582000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007ff9dd020000 - 0x00007ff9dd0bf000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007ff9dce50000 - 0x00007ff9dcf4a000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007ff9d1d30000 - 0x00007ff9d1f99000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17134.407_none_fb449d63306391e9\COMCTL32.dll
+0x00007ff9e04e0000 - 0x00007ff9e0802000 	C:\WINDOWS\System32\combase.dll
+0x00007ff9dcfa0000 - 0x00007ff9dd01a000 	C:\WINDOWS\System32\bcryptPrimitives.dll
+0x00007ff9e04b0000 - 0x00007ff9e04dd000 	C:\WINDOWS\System32\IMM32.DLL
+0x0000000056d70000 - 0x0000000056e42000 	E:\jdk\jre\bin\msvcr100.dll
+0x00000000564d0000 - 0x0000000056d6d000 	E:\jdk\jre\bin\server\jvm.dll
+0x00007ff9de4d0000 - 0x00007ff9de4d8000 	C:\WINDOWS\System32\PSAPI.DLL
+0x00007ff9d91e0000 - 0x00007ff9d9203000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ff9dbeb0000 - 0x00007ff9dbeba000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007ff9cae80000 - 0x00007ff9cae89000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ff9dfd40000 - 0x00007ff9dfdac000 	C:\WINDOWS\System32\WS2_32.dll
+0x00007ff9d91b0000 - 0x00007ff9d91da000 	C:\WINDOWS\SYSTEM32\winmmbase.dll
+0x00007ff9dcf50000 - 0x00007ff9dcf99000 	C:\WINDOWS\System32\cfgmgr32.dll
+0x00000000564c0000 - 0x00000000564cf000 	E:\jdk\jre\bin\verify.dll
+0x0000000056490000 - 0x00000000564b9000 	E:\jdk\jre\bin\java.dll
+0x0000000056440000 - 0x0000000056463000 	E:\jdk\jre\bin\instrument.dll
+0x0000000056470000 - 0x0000000056486000 	E:\jdk\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -XX:TieredStopAtLevel=1 -Xverify:none -Dspring.output.ansi.enabled=always -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=51285 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djava.rmi.server.hostname=localhost -Dspring.liveBeansView.mbeanDomain -Dspring.application.admin.enabled=true -javaagent:E:\IntelliJ IDEA 2018.2.2\lib\idea_rt.jar=51286:E:\IntelliJ IDEA 2018.2.2\bin -Dfile.encoding=GBK 
+java_command: com.hui.eurekaservice.EurekaServiceApplication
+java_class_path (initial): E:\jdk\jre\lib\charsets.jar;E:\jdk\jre\lib\deploy.jar;E:\jdk\jre\lib\ext\access-bridge-64.jar;E:\jdk\jre\lib\ext\cldrdata.jar;E:\jdk\jre\lib\ext\dnsns.jar;E:\jdk\jre\lib\ext\jaccess.jar;E:\jdk\jre\lib\ext\jfxrt.jar;E:\jdk\jre\lib\ext\localedata.jar;E:\jdk\jre\lib\ext\nashorn.jar;E:\jdk\jre\lib\ext\sunec.jar;E:\jdk\jre\lib\ext\sunjce_provider.jar;E:\jdk\jre\lib\ext\sunmscapi.jar;E:\jdk\jre\lib\ext\sunpkcs11.jar;E:\jdk\jre\lib\ext\zipfs.jar;E:\jdk\jre\lib\javaws.jar;E:\jdk\jre\lib\jce.jar;E:\jdk\jre\lib\jfr.jar;E:\jdk\jre\lib\jfxswt.jar;E:\jdk\jre\lib\jsse.jar;E:\jdk\jre\lib\management-agent.jar;E:\jdk\jre\lib\plugin.jar;E:\jdk\jre\lib\resources.jar;E:\jdk\jre\lib\rt.jar;H:\SomeLearningProjects\projects\vedioapp\eureka-service\target\classes;H:\.m2\repository\org\springframework\cloud\spring-cloud-starter-eureka-server\1.4.3.RELEASE\spring-cloud-starter-eureka-server-1.4.3.RELEASE.jar;H:\.m2\repository\org\springframework\cloud\spring-cloud-starter-netflix-eureka-server\1.4.3.RELEASE\spring-cloud-starter-netflix-eureka-server-1.4.3.RELEASE.jar;H:\.m2\repository\org\springframework\cloud\spring-cloud-starter\1.3.2.RELEASE\spring-cloud-starter-1.3.2.RELEASE.jar;H:\.m2\repository\org\springframework\boot\spring-boot-starter\1.5.10.RELEASE\spring-boot-starter-1.5.10.RELEASE.jar;H:\.m2\repository\org\springframework\boot\spring-boot-starter-logging\1.5.10.RELEASE\spring-boot-starter-logging-1.5.10.RELEASE.jar;H:\.m2\repository\ch\qos\logback\logback-classic\1.1.11\logback-classic-1.1.11.jar;H:\.m2\repository\ch\qos\logback\logback-core\1.1.11\logback-core-1.1.11.jar;H:\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;H:\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;H:\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.25\log4j-over-slf4j-1.7.25.jar;H:\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;H:\.m2\repository\org\springframework\cloud\spring-cloud-context\1.3.2.RELEASE\spring-cloud-cont
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=E:\jdk
+CLASSPATH=.;E:\jdk\lib;E:\jdk\lib\tools.jar
+PATH=E:\xftp\;E:\xshell\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;E:\jdk\bin;E:\jdk\bin;E:\jdk\jre\bin;E:\maven\apache-maven-3.5.0\bin;D:\ffmpeg\bin;E:\svn\bin;E:\Node\;E:\minGW\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\xxdn\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\xxdn\AppData\Local\Programs\Python\Python37\;D:\ruby\Ruby24-x64\bin;C:\Users\xxdn.000\AppData\Local\Microsoft\WindowsApps;D:\ffmpeg\bin;C:\Users\xxdn\AppData\Roaming\npm;
+USERNAME=xxdn
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10.0 , 64 bit Build 17134 (10.0.17134.1)
+
+CPU:total 8 (initial active 8) (4 cores per cpu, 2 threads per core) family 6 model 60 stepping 3, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, lzcnt, ht, tsc, tscinvbit, bmi1, bmi2
+
+Memory: 4k page, physical 8269956k(1406268k free), swap 8269956k(5156k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.144-b01) for windows-amd64 JRE (1.8.0_144-b01), built on Jul 21 2017 21:57:33 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Thu May 09 11:41:41 2019
+elapsed time: 0 seconds (0d 0h 0m 0s)
+

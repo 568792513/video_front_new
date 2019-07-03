@@ -21,7 +21,6 @@
       <module name="comment-service" target="1.8" />
       <module name="config-service" target="1.8" />
       <module name="eureka-service" target="1.8" />
-      <module name="file-service" target="1.8" />
       <module name="files-service" target="1.8" />
       <module name="user-service" target="1.8" />
       <module name="vedio-service" target="1.8" />

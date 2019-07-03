@@ -1,74 +1,73 @@
-#server:
-#  port: 8083
-#
-#eureka:
-#  client:
-#    service-url:
-#      defaultZone: http://localhost:8000/eureka/
-#  instance:
-#    prefer-ip-address: true
-#
-## ��������Դ
-#spring:
-#  application:
-#    name: file-service
-##  datasource:
-##    url: jdbc:mysql://120.79.143.237:3306/hui
-##    username: root
-##    password: 123456
-##    driver-class-name: com.mysql.jdbc.Driver
-##    type: com.alibaba.druid.pool.DruidDataSource
-##    #这里是配置druid连接池，以下都是druid的配置信息
-##    filters: stat,wall,log4j
-##    maxActive: 20
-##    initialSize: 1
-##    maxWait: 60000
-##    minIdle: 1
-##    timeBetweenEvictionRunsMillis: 60000
-##    minEvictableIdleTimeMillis: 300000
-##    validationQuery: select 'x'
-##    testWhileIdle: true
-##    testOnBorrow: false
-##    testOnReturn: false
-##    poolPreparedStatements: true
-##    maxOpenPreparedStatements: 20
-##    connection-properties: druid.stat.merggSql=ture;druid.stat.slowSqlMillis=5000
-##  redis:
-##    host: 120.79.143.237
-##    port: 6379
-##    password:
-##    pool:
-##      max-idle: 100
-##      min-idle: 1
-##      max-active: 1000
-##      max-wait: -1
-### mybatis
-##mybatis:
-##  mapper-locations: classpath*:/mapper/**Mapper.xml
-##  typeAliasesPackage: com.hui.user_service.entity
-##  configuration:
-##    map-underscore-to-camel-case: true
-##    cache-enabled: false
-#
-#logging:
-#  level:
-#    com:
-#      hui:
-#        user_service:
-#          mapper: debug
-#
-##ftp相关配置
-#FTP_ADDRESS: 120.79.143.237
-#FTP_PORT: 21
-#FTP_USERNAME: zhftp
-#FTP_PASSWORD: 123456
-#FTP_HEADIMGPATH: /head_img/
-#FTP_VIDEOIMGPATH: /video_img/
-#FTP_VIDEOFILEPATH: /video_file/
-##图片服务器相关配置
-#IMAGE_BASE_URL: http://120.79.143.237
-##修改文件大小限制
-#multipart:
-#  enabled: true
-#  max-file-size: 200mb
-#  max-request-size: 200mb
+server:
+  port: 8083
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
+  instance:
+    prefer-ip-address: true
+
+# ��������Դ
+spring:
+  application:
+    name: file-service
+  http:
+    multipart:
+      maxFileSize: 200Mb
+      maxRequestSize: 200Mb
+#  datasource:
+#    url: jdbc:mysql://120.79.143.237:3306/hui
+#    username: root
+#    password: 123456
+#    driver-class-name: com.mysql.jdbc.Driver
+#    type: com.alibaba.druid.pool.DruidDataSource
+#    #这里是配置druid连接池，以下都是druid的配置信息
+#    filters: stat,wall,log4j
+#    maxActive: 20
+#    initialSize: 1
+#    maxWait: 60000
+#    minIdle: 1
+#    timeBetweenEvictionRunsMillis: 60000
+#    minEvictableIdleTimeMillis: 300000
+#    validationQuery: select 'x'
+#    testWhileIdle: true
+#    testOnBorrow: false
+#    testOnReturn: false
+#    poolPreparedStatements: true
+#    maxOpenPreparedStatements: 20
+#    connection-properties: druid.stat.merggSql=ture;druid.stat.slowSqlMillis=5000
+#  redis:
+#    host: 120.79.143.237
+#    port: 6379
+#    password:
+#    pool:
+#      max-idle: 100
+#      min-idle: 1
+#      max-active: 1000
+#      max-wait: -1
+## mybatis
+#mybatis:
+#  mapper-locations: classpath*:/mapper/**Mapper.xml
+#  typeAliasesPackage: com.hui.user_service.entity
+#  configuration:
+#    map-underscore-to-camel-case: true
+#    cache-enabled: false
+
+logging:
+  level:
+    com:
+      hui:
+        user_service:
+          mapper: debug
+
+#ftp相关配置
+FTP_ADDRESS: 192.168.109.155
+FTP_PORT: 21
+FTP_USERNAME: ftp
+FTP_PASSWORD: 123456
+FTP_HEADIMGPATH: /head_img/
+FTP_VIDEOIMGPATH: /video_img/
+FTP_VIDEOFILEPATH: /video_file/
+#图片服务器相关配置
+IMAGE_BASE_URL: http://120.79.143.237
